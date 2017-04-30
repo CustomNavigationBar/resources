@@ -19,7 +19,7 @@
     <string name="nav_bar_normalize_button_size_summary">統一所有導覽鍵的尺寸大小</string>
 
     <string name="immersive">全屏模式</string>
-    <string name="change_immersive_settings">Change immersive settings</string>
+    <string name="change_immersive_settings">變更全屏模式設定</string>
     <string name="hide_status">隱藏狀態列</string>
     <string name="hide_nav">隱藏導覽列</string>
     <!-- / Navbar config -->
@@ -32,25 +32,25 @@
     <string name="clipboard">剪貼板</string>
     <string name="space">不使用</string>
     <string name="menu_ime">鍵盤切換鍵</string>
-    <string name="tasker_event">Tasker event</string>
-    <string name="toggle_profile">Toggle profile</string>
-    <string name="launch_app">Launch app</string>
+    <string name="tasker_event">Tasker事件</string>
+    <string name="toggle_profile">切換樣式設定檔</string>
+    <string name="launch_app">開啟應用程式</string>
     <!-- / Button types -->
 
     <!-- Button config -->
     <string name="xt_left_button">額外的左方導覽鍵</string>
     <string name="xt_center_button">額外的左方導覽鍵</string>
     <string name="xt_right_button">額外的中間導覽鍵</string>
-    <string name="button_type">Type</string>
+    <string name="button_type">類別</string>
     <string name="button_keycode">鍵碼</string>
     <string name="button_icon">圖示</string>
     <string name="unchanged">不改變</string>
     <!-- / Button config -->
 
     <!-- App selector -->
-    <string name="select_apps">Select app</string>
-    <string name="action_search">Search</string>
-    <string name="no_result">No result</string>
+    <string name="select_apps">選取應用程式</string>
+    <string name="action_search">搜尋</string>
+    <string name="no_result">沒有結果</string>
     <!-- / App selector -->
 
     <!-- Profiles -->
@@ -64,16 +64,16 @@
     <string name="profile_name_summary">變更樣式設定檔的名稱</string>
     <string name="delete">刪除</string>
     <string name="profiles_limitation">免費版本最多可設定2個「樣式設定檔」。\n購買專業版本以建立更多的「樣式設定檔」及支持開發。</string>
-    <string name="profile_show_in_app_shortcuts">Show in app shortcuts</string>
-    <string name="profile_app_shortcut_toggle">Toggle \"%s\"</string>
-    <string name="disable_all_profiles">Disable all profiles</string>
-    <string name="all_profiles_disabled">Disabled all profiles</string>
-    <string name="app_shortcuts_max_limit">You have reached maximum limit for app shortcuts</string>
+    <string name="profile_show_in_app_shortcuts">顯示於應用程式捷徑</string>
+    <string name="profile_app_shortcut_toggle">切換 \"%s\"</string>
+    <string name="disable_all_profiles">關閉所有樣式設定檔</string>
+    <string name="all_profiles_disabled">所有樣式設定檔已關閉</string>
+    <string name="app_shortcuts_max_limit">於應用程式捷徑的樣式設定檔設定已到達上限</string>
     <!-- / Profiles -->
 
     <!-- Themes -->
     <string name="theme">主題</string>
-    <string name="theme_default">Default</string>
+    <string name="theme_default">預設</string>
     <string name="theme_pixel">Pixel</string>
     <string name="theme_limitation">免費版本不支援主題設定。\n購買專業版本以啟用「主題」設置及支持開發。</string>
     <string name="wip_feature">此功能仍在開發及測試階段。更好更完善的效果將在後續的更新中提升。</string>
@@ -88,10 +88,10 @@
     <string name="twofortyfouram_locale_menu_save">完成</string>
 
     <string name="tasker_configuration">設置</string>
-    <string name="tasker_select_action">動作Action</string>
+    <string name="tasker_select_action">動作</string>
     <string name="tasker_select_profile">選取樣式設定檔</string>
-    <string name="tasker_select_button">Select button</string>
-    <string name="none">None</string>
+    <string name="tasker_select_button">選取按鍵</string>
+    <string name="none">沒有</string>
     <string name="tasker">Tasker</string>
     <string name="tasker_summary">自動開啟或關閉樣式設定檔</string>
     <string name="tasker_profile_empty">請選取樣式設定檔</string>
@@ -99,9 +99,9 @@
 
     <string name="tasker_enable_profile">啟用樣式設定檔</string>
     <string name="tasker_disable_profile">關閉樣式設定檔</string>
-    <string name="tasker_in_profile">in profile %s</string>
-    <string name="tasker_pro_limitation">Tasker events are not available in free version.\nBuy pro version to support the development and unlock tasker events?</string>
-    <string name="tasker_events_wip">This feature is currently in development. It will improve over time.</string>
+    <string name="tasker_in_profile">在樣式設定檔 %s</string>
+    <string name="tasker_pro_limitation">免費版本不支援Tasker事件。\n購買專業版本以啟用「Tasker」設置及支持開發。</string>
+    <string name="tasker_events_wip">此功能仍在開發及測試階段。更好更完善的效果將在後續的更新中提升。</string>
     <!-- / Tasker plugin UI -->
 
     <!-- App info -->
