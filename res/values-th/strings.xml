@@ -1,0 +1,169 @@
+<resources>
+    <string name="app_name">Custom Navigation Bar</string>
+
+    <!-- Navbar config -->
+    <string name="nav_bar">แถบนำทาง</string>
+    <string name="nav_bar_summary">แก้ไขแถบนำทาง</string>
+
+    <string name="nav_bar_layout">โครงร่าง</string>
+    <string name="nav_bar_layout_normal">ปกติ</string>
+    <string name="nav_bar_layout_left">ทางซ้าย</string>
+    <string name="nav_bar_layout_right">ทาวขวา</string>
+    <string name="nav_bar_layout_compact">เล็ก</string>
+    <string name="nav_bar_layout_tablet">แท็บเล็ต</string>
+
+    <string name="nav_bar_inverted">กลับด้าน</string>
+    <string name="nav_bar_inverted_summary">สลับปุ่ม "กลับ" และ "ภาพรวม"</string>
+
+    <string name="nav_bar_normalize_button_size">ปรับขนาดปุ่มให้เท่ากัน</string>
+    <string name="nav_bar_normalize_button_size_summary" />
+
+    <string name="immersive">โหมดเต็มหน้าจอ</string>
+    <string name="change_immersive_settings">ปรับแต่งโหมดเต็มหน้าจอ</string>
+    <string name="hide_status">ซ่อนแถบสถานะ</string>
+    <string name="hide_nav">ซ่อนแถบนำทาง</string>
+    <!-- / Navbar config -->
+
+    <!-- Button types -->
+    <string name="accessibility_home">หน้าแรก</string>
+    <string name="accessibility_back">กลับ</string>
+    <string name="accessibility_recent">ภาพรวม</string>
+    <string name="keycode">Keycode</string>
+    <string name="clipboard">คลิบบอร์ด</string>
+    <string name="space">ไม่มี</string>
+    <string name="menu_ime">ปุ่มสลับเมนู/แป้นพิมพ์</string>
+    <string name="tasker_event">อีเวนต์ Tasker</string>
+    <string name="toggle_profile">สลับโปรไฟล์</string>
+    <string name="launch_app">เปิดแอพ</string>
+    <!-- / Button types -->
+
+    <!-- Button config -->
+    <string name="xt_left_button">ปุ่มทางซ้าย</string>
+    <string name="xt_center_button">Extra center button</string>
+    <string name="xt_right_button">ปุ่มทางขวา</string>
+    <string name="button_type">ชนิด</string>
+    <string name="button_keycode">Keycode</string>
+    <string name="button_icon">ไอคอน</string>
+    <string name="unchanged">ไม่เปลี่ยน</string>
+    <!-- / Button config -->
+
+    <!-- App selector -->
+    <string name="select_apps">เลือกแอพ</string>
+    <string name="action_search">ค้นหา</string>
+    <string name="no_result">ไม่มีผลลัพธ์</string>
+    <!-- / App selector -->
+
+    <!-- Profiles -->
+    <string name="profiles">โปรไฟล์</string>
+    <string name="profiles_summary">สร้างโปรไฟล์ที่สามารถเปิด/ปิดได้</string>
+    <string name="no_profiles">ไม่มีโปรไฟล์</string>
+    <string name="automation">ระบบอัตโนมัติ</string>
+    <string name="profile">โปรไฟล์</string>
+    <string name="profile_enabled">เปิด</string>
+    <string name="profile_name">ชื่อ</string>
+    <string name="profile_name_summary">เปลี่ยนชื่อโปรไฟล์</string>
+    <string name="delete">ลบ</string>
+    <string name="profiles_limitation">สามารถสร้างโปรไฟล์ได้มากที่สุด 2 โปรไฟล์ ในเวอร์ชั่นฟรี\nซื้อเวอร์ชั่นโปรเพื่อลบโฆษณาและปลดล็อคการจำกัดโปรไฟล์หรือไม่?</string>
+    <string name="profile_show_in_app_shortcuts">แสดงในทางลัดแอพ</string>
+    <string name="profile_app_shortcut_toggle">สลับ \"%s\"</string>
+    <string name="disable_all_profiles">ปิดโปรไฟล์ทั้งหมด</string>
+    <string name="all_profiles_disabled">โปรไฟล์ทั้งหมดถูกปิด</string>
+    <string name="app_shortcuts_max_limit">You have reached maximum limit for app shortcuts</string>
+    <!-- / Profiles -->
+
+    <!-- Themes -->
+    <string name="theme">ธีม</string>
+    <string name="theme_default">ค่าเริ่มต้น</string>
+    <string name="theme_pixel">Pixel</string>
+    <string name="theme_limitation">ไม่สามารถใช้งานธีมในเวอร์ชั่นฟรีได้\nซื้อเวอร์ชั่นโปรเพื่อลบโฆษณาและปลดล็อคธีมหรือไม่?</string>
+    <string name="wip_feature">ฟีเจอร์นี้อยู่ในระหว่างการพัฒนา</string>
+    <string name="themes_warning">เมื่อธีมเปิดใช้งาน ปุ่มจะไม่สามารถคลิกค้างได้ เป็นข้อจำกัดของระบบ Android</string>
+    <!-- / Themes -->
+
+    <!-- Tasker plugin UI -->
+    <string name="twofortyfouram_locale_breadcrumb_format">%1$s%2$s%3$s</string>
+    <string name="twofortyfouram_locale_breadcrumb_separator">\u0020&gt;\u0020</string>
+    <string name="twofortyfouram_locale_menu_dontsave">ยกเลิก</string>
+    <string name="twofortyfouram_locale_menu_help">ช่วยเหลือ</string>
+    <string name="twofortyfouram_locale_menu_save">เสร็จสิ้น</string>
+
+    <string name="tasker_configuration">การตั้งค่า</string>
+    <string name="tasker_select_action">การกระทำ</string>
+    <string name="tasker_select_profile">เลือกโปรไฟล์</string>
+    <string name="tasker_select_button">เลือกปุ่ม</string>
+    <string name="tasker">Tasker</string>
+    <string name="tasker_summary">เปิด/ปิดโปรไฟล์ตามสถานะ</string>
+    <string name="tasker_profile_empty">โปรดเลือกโปรไฟล์</string>
+    <string name="tasker_no_profiles">โปรดสร้างโปรไฟล์</string>
+
+    <string name="tasker_enable_profile">เปิดโปรไฟล์</string>
+    <string name="tasker_disable_profile">ปิดโปรไฟล์</string>
+    <string name="tasker_in_profile">ในโปรไฟล์ %s</string>
+    <string name="tasker_pro_limitation">ไม่สามารถใช้งานอัเวนต์ Tasker ในเวอร์ชั่นฟรีได้\nซื้อเวอร์ชั่นโปรเพื่อลบโฆษณาและปลดล็อคอีเวนต์ Tasker หรือไม่?</string>
+    <string name="tasker_events_wip">ฟีเจอร์นี้อยู่ในระหว่างการพัฒนา</string>
+    <!-- / Tasker plugin UI -->
+
+    <!-- App info -->
+    <string name="settings">การตั้งค่า</string>
+    <string name="information">เกี่ยวกับ</string>
+    <string name="share">แชร์</string>
+    <string name="other_apps">แอพอื่นๆ</string>
+    <string name="version">เวอร์ชั่น %s</string>
+    <string name="grant_perm">ให้สิทธิ</string>
+    <string name="perm_not_granted_desc"><![CDATA[
+        แอพนี้ต้องการสิทธ์ <i>WRITE_SECURE_SETTINGS</i> ในการแก้ไขแถบสถานะ คุณสามารถให้สิทธิ์นี้ได้โดยใช้ root หรือ PC
+        <br><br><b>หากคุณมี root</b>
+        <br>กดต่อไปและให้สิทธิ์ superuser หรือทำตามขั้นตอนด้านล่าง
+        <br><b>1 </b>เปิด Terminal Emulator
+        <br><b>2 </b>พิมพ์ \'su\' เพื่อเข้าโหมด superuser
+        <br><b>3 </b>พิมพ์คำสั่งต่อไปนี้เพื่อให้สิทธิ์
+        <br><br>pm grant xyz.paphonb.systemuituner android.permission.WRITE_SECURE_SETTINGS
+        <br><br><b>หากตุณมี PC</b>
+        <br><b>1 </b>ติดตั้ง ADB บน PC ของคุณ
+        <br><b>2 </b>เชื่อมต่อโทรศัพท์โดยเปิดการแก้ไขข้อบกพร่อง USB
+        <br><b>3 </b>เปิด command prompt
+        <br><b>4 </b>พิมพ์ \'adb shell\' เพื่อเข้า adb shell
+        <br><b>5 </b>พิมพ์คำสั่งต่อไปนี้เพื่อให้สิทธิ์
+        <br><br>pm grant xyz.paphonb.systemuituner android.permission.WRITE_SECURE_SETTINGS
+        <br><br><b>คลิกปุ่มด้านล่างเพื่อคัดลอกคำสั่ง</b>
+    ]]></string>
+    <string name="retry_title">ลองอีกครั้ง</string>
+    <string name="retry_desc" />
+    <string name="copied">คัดลอกแล้ว</string>
+    <string name="help_needed">ไม่ผ่านการทดสอบความเข้ากันได้</string>
+
+    <string name="buy">ซื้อ</string>
+    <string name="buy_pro">ซื้อเวอร์ชั่นโปร</string>
+    <string name="buy_pro_summary">สนับสนุนการพัฒนาและลบโฆษณา</string>
+    <string name="thanks">ขอบคุณสำหรับการสนับสนุนการพัฒนา</string>
+
+    <string name="welcome">ยินดีต้อนรันสู่ Custom Navigation Bar Bar</string>
+    <string name="copy">คัดลอกคำสั่ง</string>
+    <string name="get_started">เริ่ม</string>
+    <string name="safety_first">ปลอดภัยไว้ก่อน</string>
+    <string name="safety_desc"><![CDATA[
+        เพื่อให้แน่นอนว่าแอพนี้จะทำงานได้บนอุปกรณ์ของคุณ จำต้องทดสอบความเข้ากันได้
+        <br><br>กด <b>เริ่ม</b> เพื่อเริ่มการทดสอบ
+    ]]></string>
+    <string name="cancel">ยกเลิก</string>
+    <string name="test_desc"><![CDATA[
+        กด<b>ปุ่มลูกศรบนแถบนำทาง</b>เพื่อไปต่อ
+        <br><br>หากคุณไม่เห็นอะไรเกิดขึ้น หมายความว่าอุปกรณ์ของคุณไม่สามารถเข้ากันได้กับแอพนี้
+    ]]></string>
+    <string name="compatibility_test">การทดสอบความเข้ากันได้</string>
+    <string name="finish">เสร็จสิ้น</string>
+    <string name="all_done" />
+    <string name="all_done_desc">การตั้งค่าเสร็จสมบูรณ์ คุณสามารถเริ่มต้นใช้แอพนี้ได้</string>
+    <string name="exit">ออก</string>
+    <string name="contact">ติดต่อผู้พัฒนา</string>
+    <string name="no_email_app">No email app</string>
+    <string name="no_root">โปรให้สิทธ์ด้วย ADB</string>
+    <string name="not_compatible">แอพนี้ไม่สามารถเข้ากันได้กับ Android เวอร์ชั่นนี้</string>
+    <string name="might_not_be_compatible">แอพนี้อาจไม่สามารถเข้ากันได้กับระบบ Android นี้</string>
+
+    <string name="experimental">การตั้งค่าทดลอง</string>
+    <string name="experimental_warning">เปลี่ยนปุ่ม ย้อนกลับ, หน้าหลักและ ภาพรวม</string>
+    <string name="none">ไม่มี</string>
+    <!-- / App info -->
+
+</resources>

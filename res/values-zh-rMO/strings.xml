@@ -1,0 +1,169 @@
+<resources>
+    <string name="app_name">Custom Navigation Bar</string>
+
+    <!-- Navbar config -->
+    <string name="nav_bar">導覽列</string>
+    <string name="nav_bar_summary">變更導覽列的樣式</string>
+
+    <string name="nav_bar_layout">樣式</string>
+    <string name="nav_bar_layout_normal">正常（預設）</string>
+    <string name="nav_bar_layout_left">靠左</string>
+    <string name="nav_bar_layout_right">靠右</string>
+    <string name="nav_bar_layout_compact">緊湊</string>
+    <string name="nav_bar_layout_tablet">平板模式</string>
+
+    <string name="nav_bar_inverted">反轉</string>
+    <string name="nav_bar_inverted_summary">將「返回鍵」和「最近使用的應用程式鍵」交換位置</string>
+
+    <string name="nav_bar_normalize_button_size">規範化導覽鍵的尺寸大小</string>
+    <string name="nav_bar_normalize_button_size_summary">統一所有導覽鍵的尺寸大小</string>
+
+    <string name="immersive">全屏模式</string>
+    <string name="change_immersive_settings">Change immersive settings</string>
+    <string name="hide_status">隱藏狀態列</string>
+    <string name="hide_nav">隱藏導覽列</string>
+    <!-- / Navbar config -->
+
+    <!-- Button types -->
+    <string name="accessibility_home">主頁</string>
+    <string name="accessibility_back">返回</string>
+    <string name="accessibility_recent">最近使用的應用程式</string>
+    <string name="keycode">鍵碼</string>
+    <string name="clipboard">剪貼板</string>
+    <string name="space">不使用</string>
+    <string name="menu_ime">鍵盤切換鍵</string>
+    <string name="tasker_event">Tasker event</string>
+    <string name="toggle_profile">Toggle profile</string>
+    <string name="launch_app">Launch app</string>
+    <!-- / Button types -->
+
+    <!-- Button config -->
+    <string name="xt_left_button">額外的左方導覽鍵</string>
+    <string name="xt_center_button">額外的左方導覽鍵</string>
+    <string name="xt_right_button">額外的中間導覽鍵</string>
+    <string name="button_type">Type</string>
+    <string name="button_keycode">鍵碼</string>
+    <string name="button_icon">圖示</string>
+    <string name="unchanged">不改變</string>
+    <!-- / Button config -->
+
+    <!-- App selector -->
+    <string name="select_apps">Select app</string>
+    <string name="action_search">Search</string>
+    <string name="no_result">No result</string>
+    <!-- / App selector -->
+
+    <!-- Profiles -->
+    <string name="profiles">樣式設定檔</string>
+    <string name="profiles_summary">建立樣式設定檔以開啟或關閉</string>
+    <string name="no_profiles">沒有樣式設定檔</string>
+    <string name="automation">自動化</string>
+    <string name="profile">樣式設定檔</string>
+    <string name="profile_enabled">啟用</string>
+    <string name="profile_name">名稱</string>
+    <string name="profile_name_summary">變更樣式設定檔的名稱</string>
+    <string name="delete">刪除</string>
+    <string name="profiles_limitation">免費版本最多可設定2個「樣式設定檔」。\n購買專業版本以建立更多的「樣式設定檔」及支持開發。</string>
+    <string name="profile_show_in_app_shortcuts">Show in app shortcuts</string>
+    <string name="profile_app_shortcut_toggle">Toggle \"%s\"</string>
+    <string name="disable_all_profiles">Disable all profiles</string>
+    <string name="all_profiles_disabled">Disabled all profiles</string>
+    <string name="app_shortcuts_max_limit">You have reached maximum limit for app shortcuts</string>
+    <!-- / Profiles -->
+
+    <!-- Themes -->
+    <string name="theme">主題</string>
+    <string name="theme_default">Default</string>
+    <string name="theme_pixel">Pixel</string>
+    <string name="theme_limitation">免費版本不支援主題設定。\n購買專業版本以啟用「主題」設置及支持開發。</string>
+    <string name="wip_feature">此功能仍在開發及測試階段。更好更完善的效果將在後續的更新中提升。</string>
+    <string name="themes_warning">由於Android的限制，主題化的按鍵無法使用「長按」效果。</string>
+    <!-- / Themes -->
+
+    <!-- Tasker plugin UI -->
+    <string name="twofortyfouram_locale_breadcrumb_format">%1$s%2$s%3$s</string>
+    <string name="twofortyfouram_locale_breadcrumb_separator">\u0020&gt;\u0020</string>
+    <string name="twofortyfouram_locale_menu_dontsave">取消</string>
+    <string name="twofortyfouram_locale_menu_help">支援</string>
+    <string name="twofortyfouram_locale_menu_save">完成</string>
+
+    <string name="tasker_configuration">設置</string>
+    <string name="tasker_select_action">動作Action</string>
+    <string name="tasker_select_profile">選取樣式設定檔</string>
+    <string name="tasker_select_button">Select button</string>
+    <string name="none">None</string>
+    <string name="tasker">Tasker</string>
+    <string name="tasker_summary">自動開啟或關閉樣式設定檔</string>
+    <string name="tasker_profile_empty">請選取樣式設定檔</string>
+    <string name="tasker_no_profiles">請建立樣式設定檔</string>
+
+    <string name="tasker_enable_profile">啟用樣式設定檔</string>
+    <string name="tasker_disable_profile">關閉樣式設定檔</string>
+    <string name="tasker_in_profile">in profile %s</string>
+    <string name="tasker_pro_limitation">Tasker events are not available in free version.\nBuy pro version to support the development and unlock tasker events?</string>
+    <string name="tasker_events_wip">This feature is currently in development. It will improve over time.</string>
+    <!-- / Tasker plugin UI -->
+
+    <!-- App info -->
+    <string name="settings">設定</string>
+    <string name="information">關於</string>
+    <string name="share">Share</string>
+    <string name="other_apps">其他應用程式</string>
+    <string name="version">版本 %s</string>
+    <string name="grant_perm">授予權限</string>
+    <string name="perm_not_granted_desc"><![CDATA[
+    此應用程式需要 <i>WRITE_SECURE_SETTINGS</i>的權限變更導覽列樣式。你可以透過Root或通過電腦獲取權限。
+    <br><br><b>如你的裝置已有Root的權限</b>
+    <br>請按下一步及允許超級使用者權限以獲得權限或透過下列方法授予權限。
+    <br><b>1</b>開啟終端機模擬器
+    <br><b>2 </b>輸入 \'su\' 進入 超級使用者模式
+    <br><b>3 </b>輸入以下指令
+    <br><br>pm grant xyz.paphonb.systemuituner android.permission. WRITE_SECURE_SETTINGS
+    <br><br><b>如你有電腦</b>
+    <br><b>1 </b>在電腦安裝ADB
+    <br><b>2 </b>將電話連接電腦並打開USB偵錯模式
+    <br><b>3 </b>開啟指令輸入
+    <br><b>4 </b>輸入 \'adb shell\' 進入 adb shell
+    <br><b>5</b>輸入以下指令
+    <br><br>pm grant xyz.paphonb.systemuituner android.permission.WRITE_SECURE_SETTINGS
+    <br><br><b>你可按下方的按鍵複製此指令</b>
+    ]]></string>
+    <string name="retry_title">重試</string>
+    <string name="retry_desc">重新開始測試</string>
+    <string name="copied">已複製</string>
+    <string name="help_needed">抱歉，你未能通過相容性測試。</string>
+
+    <string name="buy">Buy</string>
+    <string name="buy_pro">購買專業版本</string>
+    <string name="buy_pro_summary">移除廣告顯示及支持開發</string>
+    <string name="thanks">謝謝你支持開發。</string>
+
+    <string name="welcome">歡迎使用 Custom Navigation Bar。此簡介將會指導你如何開始使用此應用程式。</string>
+    <string name="copy">複製指令</string>
+    <string name="get_started">開始！</string>
+    <string name="safety_first">安全性為首要</string>
+    <string name="safety_desc"><![CDATA[
+        為確保應用程式能順利運行，你需要進行以下相容性測試
+        <br><br>按<b>開始</b>進行測試
+    ]]></string>
+    <string name="cancel">取消</string>
+    <string name="test_desc"><![CDATA[
+        按<b>導覽列的下一步按鍵</b>繼續
+        <br><br>如你在導覽列沒有看到下一步按鍵，即表示您的裝置不相容此應用程式。
+    ]]></string>
+    <string name="compatibility_test">相容／支援性測試</string>
+    <string name="finish">完成</string>
+    <string name="all_done" />
+    <string name="all_done_desc">設定已經完成，你現在可以使用應用程式了。 </string>
+    <string name="exit">離開</string>
+    <string name="contact">聯絡開發者</string>
+    <string name="no_email_app">沒有電郵應用程式</string>
+    <string name="no_root">請在電腦利用ADB授予權限。</string>
+    <string name="not_compatible">此應用程式與你的Android版本不相容。為免程式錯誤出現，所有功能將被禁止使用。</string>
+    <string name="might_not_be_compatible">此應用程式在你的Android版本的使用效果可能未如理想或無法使用。</string>
+
+    <string name="experimental">實驗性功能</string>
+    <string name="experimental_warning">這些設定允許你替換原有的主頁鍵、返回鍵及最近使用的應用程序鍵。（可能在部分裝置或系統版本無法使用） </string>
+    <!-- / App info -->
+
+</resources>

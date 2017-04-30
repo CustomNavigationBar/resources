@@ -1,0 +1,169 @@
+<resources tools:ignore="MissingTranslation" xmlns:tools="http://schemas.android.com/tools">
+    <string name="app_name">Custom Navigation Bar</string>
+
+    <!-- Navbar config -->
+    <string name="nav_bar">Navigation bar</string>
+    <string name="nav_bar_summary">Change how the navigation bar should look like</string>
+
+    <string name="nav_bar_layout">Layout</string>
+    <string name="nav_bar_layout_normal">Normal</string>
+    <string name="nav_bar_layout_left">Left-leaning</string>
+    <string name="nav_bar_layout_right">Right-leaning</string>
+    <string name="nav_bar_layout_compact">Compact</string>
+    <string name="nav_bar_layout_tablet">Tablet</string>
+
+    <string name="nav_bar_inverted">Inverted</string>
+    <string name="nav_bar_inverted_summary">Swap back and recents button</string>
+
+    <string name="nav_bar_normalize_button_size">Normalize button size</string>
+    <string name="nav_bar_normalize_button_size_summary">Make all buttons the same size</string>
+
+    <string name="immersive">Immersive mode</string>
+    <string name="change_immersive_settings">Change immersive settings</string>
+    <string name="hide_status">Hide status bar</string>
+    <string name="hide_nav">Hide navbar</string>
+    <!-- / Navbar config -->
+
+    <!-- Button types -->
+    <string name="accessibility_home">Home</string>
+    <string name="accessibility_back">Back</string>
+    <string name="accessibility_recent">Overview</string>
+    <string name="keycode">Keycode</string>
+    <string name="clipboard">Clipboard</string>
+    <string name="space">None</string>
+    <string name="menu_ime">Keyboard Switcher</string>
+    <string name="tasker_event">Tasker event</string>
+    <string name="toggle_profile">Toggle profile</string>
+    <string name="launch_app">Launch app</string>
+    <!-- / Button types -->
+
+    <!-- Button config -->
+    <string name="xt_left_button">Extra left button</string>
+    <string name="xt_center_button">Extra center button</string>
+    <string name="xt_right_button">Extra right button</string>
+    <string name="button_type">Type</string>
+    <string name="button_keycode">Keycode</string>
+    <string name="button_icon">Icon</string>
+    <string name="unchanged">Unchanged</string>
+    <!-- / Button config -->
+
+    <!-- App selector -->
+    <string name="select_apps">Select app</string>
+    <string name="action_search">Search</string>
+    <string name="no_result">No result</string>
+    <!-- / App selector -->
+
+    <!-- Profiles -->
+    <string name="profiles">Profiles</string>
+    <string name="profiles_summary">Create profiles that can be enabled or disabled</string>
+    <string name="no_profiles">No profiles</string>
+    <string name="automation">Automation</string>
+    <string name="profile">Profile</string>
+    <string name="profile_enabled">Enabled</string>
+    <string name="profile_name">Name</string>
+    <string name="profile_name_summary">Change the profile name</string>
+    <string name="delete">Delete</string>
+    <string name="profiles_limitation">Free version is limited to maximum 2 profiles.\nBuy pro version to support the development and unlock the limit?</string>
+    <string name="profile_show_in_app_shortcuts">Show in app shortcuts</string>
+    <string name="profile_app_shortcut_toggle">Toggle \"%s\"</string>
+    <string name="disable_all_profiles">Disable all profiles</string>
+    <string name="all_profiles_disabled">Disabled all profiles</string>
+    <string name="app_shortcuts_max_limit">You have reached maximum limit for app shortcuts</string>
+    <!-- / Profiles -->
+
+    <!-- Themes -->
+    <string name="theme">Theme</string>
+    <string name="theme_default">Default</string>
+    <string name="theme_pixel">Pixel</string>
+    <string name="theme_limitation">Themes are not available in free version.\nBuy pro version to support the development and unlock themes?</string>
+    <string name="wip_feature">This feature is currently in development. It will improve over time.</string>
+    <string name="themes_warning">Themed buttons will lose their long-press function. This is an Android limitation and cannot be fixed.</string>
+    <!-- / Themes -->
+
+    <!-- Tasker plugin UI -->
+    <string name="twofortyfouram_locale_breadcrumb_format">%1$s%2$s%3$s</string>
+    <string name="twofortyfouram_locale_breadcrumb_separator">\u0020&gt;\u0020</string>
+    <string name="twofortyfouram_locale_menu_dontsave">Cancel</string>
+    <string name="twofortyfouram_locale_menu_help">Help</string>
+    <string name="twofortyfouram_locale_menu_save">Done</string>
+
+    <string name="tasker_configuration">Configuration</string>
+    <string name="tasker_select_action">Action</string>
+    <string name="tasker_select_profile">Select profile</string>
+    <string name="tasker_select_button">Select button</string>
+    <string name="none">None</string>
+    <string name="tasker">Tasker</string>
+    <string name="tasker_summary">Dynamically enable/disable profiles</string>
+    <string name="tasker_profile_empty">Please select a profile</string>
+    <string name="tasker_no_profiles">Please create a profile</string>
+
+    <string name="tasker_enable_profile">Enable profile</string>
+    <string name="tasker_disable_profile">Disable profile</string>
+    <string name="tasker_in_profile">in profile %s</string>
+    <string name="tasker_pro_limitation">Tasker events are not available in free version.\nBuy pro version to support the development and unlock tasker events?</string>
+    <string name="tasker_events_wip">This feature is currently in development. It will improve over time.</string>
+    <!-- / Tasker plugin UI -->
+
+    <!-- App info -->
+    <string name="settings">Settings</string>
+    <string name="information">About</string>
+    <string name="share">Share</string>
+    <string name="other_apps">Other apps</string>
+    <string name="version">Version %s</string>
+    <string name="grant_perm">Grant permission</string>
+    <string name="perm_not_granted_desc"><![CDATA[
+        This app needs <i>WRITE_SECURE_SETTINGS</i> permission to apply changes. You can grant the permission by using root or a PC.
+        <br><br><b>If you have root</b>
+        <br>Press next and allow superuser access to automatically grant the permission or do the steps below.
+        <br><b>1 </b>Open Terminal Emulator
+        <br><b>2 </b>Type \'su\' to enter superuser mode
+        <br><b>3 </b>Type the following command to grant the permission
+        <br><br>pm grant xyz.paphonb.systemuituner android.permission.WRITE_SECURE_SETTINGS
+        <br><br><b>If you have a PC</b>
+        <br><b>1 </b>Install ADB on your PC
+        <br><b>2 </b>Connect your phone with USB Debugging enabled
+        <br><b>3 </b>Open a command prompt
+        <br><b>4 </b>Type \'adb shell\' to enter adb shell
+        <br><b>5 </b>Type the following command to grant the permission
+        <br><br>pm grant xyz.paphonb.systemuituner android.permission.WRITE_SECURE_SETTINGS
+        <br><br><b>Click the button below to copy the command.</b>
+    ]]></string>
+    <string name="retry_title">Retry</string>
+    <string name="retry_desc">Restart the test</string>
+    <string name="copied">Copied</string>
+    <string name="help_needed">You failed the compatibility test. What would you like to do next?</string>
+
+    <string name="buy">Buy</string>
+    <string name="buy_pro">Buy pro version</string>
+    <string name="buy_pro_summary">Support the development and remove ads</string>
+    <string name="thanks">Thank you for supporting the development.</string>
+
+    <string name="welcome">Welcome to Custom Navigation Bar. This intro will help you get started.</string>
+    <string name="copy">Copy command</string>
+    <string name="get_started">Get started</string>
+    <string name="safety_first">Safety first</string>
+    <string name="safety_desc"><![CDATA[
+        To ensure that this application will work on your device, you need to run a compatibility test to continue.
+        <br><br>Tap <b>start</b> to run the test.
+    ]]></string>
+    <string name="cancel">Cancel</string>
+    <string name="test_desc"><![CDATA[
+        Tap the <b>next button on your navbar</b> to continue.
+        <br><br>If you don\'t see anything, it means your device is not compatible with this app.
+    ]]></string>
+    <string name="compatibility_test">Compatibility test</string>
+    <string name="finish">Finish</string>
+    <string name="all_done">All done</string>
+    <string name="all_done_desc">Setup is complete. You can start using this application.</string>
+    <string name="exit">Exit</string>
+    <string name="contact">Contact the developer</string>
+    <string name="no_email_app">No email app</string>
+    <string name="no_root">Please grant the permission from your PC using ADB.</string>
+    <string name="not_compatible">This application is not compatible with this Android version. All functions will be disabled to prevent crashes.</string>
+    <string name="might_not_be_compatible">This application might not work on your Android system.</string>
+
+    <string name="experimental">Experimental tweaks</string>
+    <string name="experimental_warning">These settings allow you to replace the existing back, home and recent keys. They might not work as expected.</string>
+    <!-- / App info -->
+
+</resources>
