@@ -81,6 +81,8 @@
     <string name="theme_limitation">Themes are not available in free version.\nBuy pro version to support the development and unlock themes?</string>
     <string name="wip_feature">This feature is currently in development. It will improve over time.</string>
     <string name="themes_warning">Themed buttons will lose their long-press function. This is an Android limitation and cannot be fixed.</string>
+    <string name="theme_incompatibility">Incompatibility</string>
+    <string name="theme_disable_screen_pinning">Themes are not compatible with screen pinning. Disable screen pinning?</string>
     <!-- / Themes -->
 
     <!-- Tasker plugin UI -->
