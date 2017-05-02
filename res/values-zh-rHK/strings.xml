@@ -39,8 +39,8 @@
 
     <!-- Button config -->
     <string name="xt_left_button">額外的左方導覽鍵</string>
-    <string name="xt_center_button">額外的左方導覽鍵</string>
-    <string name="xt_right_button">額外的中間導覽鍵</string>
+    <string name="xt_center_button">額外的中間導覽鍵</string>
+    <string name="xt_right_button">額外的左方導覽鍵</string>
     <string name="button_type">類別</string>
     <string name="button_keycode">鍵碼</string>
     <string name="button_icon">圖示</string>
