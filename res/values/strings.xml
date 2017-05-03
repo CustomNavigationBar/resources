@@ -32,6 +32,7 @@
     <string name="clipboard">Clipboard</string>
     <string name="space">None</string>
     <string name="menu_ime">Keyboard Switcher</string>
+    <string name="notifications">Notifications</string>
     <string name="tasker_event">Tasker event</string>
     <string name="toggle_profile">Toggle profile</string>
     <string name="launch_app">Launch app</string>
