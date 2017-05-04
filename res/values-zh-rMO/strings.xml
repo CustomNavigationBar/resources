@@ -32,6 +32,7 @@
     <string name="clipboard">剪貼板</string>
     <string name="space">不使用</string>
     <string name="menu_ime">鍵盤切換鍵</string>
+    <string name="notifications">通知</string>
     <string name="tasker_event">Tasker事件</string>
     <string name="toggle_profile">切換樣式設定檔</string>
     <string name="launch_app">開啟應用程式</string>
