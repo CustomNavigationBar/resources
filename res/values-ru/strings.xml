@@ -1,0 +1,175 @@
+<resources>
+    <string name="app_name">Custom Navigation Bar</string>
+
+    <!-- Navbar config -->
+    <string name="nav_bar">Панель навигации</string>
+    <string name="nav_bar_summary">Настройте Вашу панель навигации</string>
+
+    <string name="nav_bar_layout">Внешний вид</string>
+    <string name="nav_bar_layout_normal">Нормальный</string>
+    <string name="nav_bar_layout_left">Клавиши слева</string>
+    <string name="nav_bar_layout_right">Клавиши справа</string>
+    <string name="nav_bar_layout_compact">Компактный</string>
+    <string name="nav_bar_layout_tablet">Планшетный</string>
+
+    <string name="nav_bar_inverted">Инвертировать клавиши</string>
+    <string name="nav_bar_inverted_summary">Поменять местами клавиши "Назад" и "Домой"</string>
+
+    <string name="nav_bar_normalize_button_size">Нормализовать размер кнопок</string>
+    <string name="nav_bar_normalize_button_size_summary">Сделать все кнопки одинакового размера</string>
+
+    <string name="immersive">Полноэкранный режим</string>
+    <string name="change_immersive_settings">Изменить настройки полноэкранного режима</string>
+    <string name="hide_status">Скрыть строку состояния</string>
+    <string name="hide_nav">Скрыть панель навигации</string>
+    <!-- / Navbar config -->
+
+    <!-- Button types -->
+    <string name="accessibility_home">Домой</string>
+    <string name="accessibility_back">Назад</string>
+    <string name="accessibility_recent">Обзор</string>
+    <string name="keycode">Другая (за кодом клавиши)</string>
+    <string name="clipboard">Буфер обмена</string>
+    <string name="space">Нет</string>
+    <string name="menu_ime">Переключатель клавиатуры</string>
+    <string name="notifications">Уведомления</string>
+    <string name="tasker_event">Событие Tasker</string>
+    <string name="toggle_profile">Переключить профиль</string>
+    <string name="launch_app">Запустить приложение</string>
+    <!-- / Button types -->
+
+    <!-- Button config -->
+    <string name="xt_left_button">Дополнительная левая кнопка</string>
+    <string name="xt_center_button">Дополнительная центральная кнопка</string>
+    <string name="xt_right_button">Дополнительная правая кнопка</string>
+    <string name="button_type">Тип</string>
+    <string name="button_keycode">Код клавиши</string>
+    <string name="button_icon">Иконка</string>
+    <string name="unchanged">Без изменений</string>
+    <!-- / Button config -->
+
+    <!-- App selector -->
+    <string name="select_apps">Выбрать приложение</string>
+    <string name="action_search">Поиск</string>
+    <string name="no_result">Ничего не найдено...</string>
+    <!-- / App selector -->
+
+    <!-- Profiles -->
+    <string name="profiles">Профили</string>
+    <string name="profiles_summary">Создать профиль</string>
+    <string name="no_profiles">Нет профилей</string>
+    <string name="automation">Автоматизация</string>
+    <string name="profile">Профиль</string>
+    <string name="profile_enabled">Включен</string>
+    <string name="profile_name">Название</string>
+    <string name="profile_name_summary">Изменить название профиля</string>
+    <string name="delete">Удалить</string>
+    <string name="profiles_limitation">Бесплатная версия ограничена двумя профилями. \nКупить полную версию, чтобы поддержать разработку и снять ограничения?</string>
+    <string name="profile_show_in_app_shortcuts">Показывать при долгом нажатии на иконку приложения</string>
+    <string name="profile_app_shortcut_toggle">Переключить \"%s\"</string>
+    <string name="disable_all_profiles">Выключить все профили</string>
+    <string name="all_profiles_disabled">Все профили отключены</string>
+    <string name="app_shortcuts_max_limit">Достигнуто максимальное количество ярлыков</string>
+    <!-- / Profiles -->
+
+    <!-- Themes -->
+    <string name="theme">Тема</string>
+    <string name="theme_default">По-умолчанию</string>
+    <string name="theme_pixel">Pixel</string>
+    <string name="theme_invisible">Невидимка</string>
+    <string name="theme_holo">Holo</string>
+    <string name="invalid_theme">Недопустимая тема</string>
+    <string name="theme_limitation">Темы недоступны в бесплатной версии. \nКупить полную версию, чтобы поддержать разработку и разблокировать темы?</string>
+    <string name="wip_feature">Эта функция находиться в разработке. В дальнейшем она будет улучшена.</string>
+    <string name="themes_warning">Измененные клавиши потеряют свой функционал при долгом нажатии. Это ограничение ОС Android, и не оно может быть исправлено.</string>
+    <string name="theme_incompatibility">Несовместимость</string>
+    <string name="theme_disable_screen_pinning">Темы несовместимы с функцией блокировки в приложениях. Отключить блокировку в приложениях?</string>
+    <!-- / Themes -->
+
+    <!-- Tasker plugin UI -->
+    <string name="twofortyfouram_locale_breadcrumb_format">%1$s%2$s%3$s</string>
+    <string name="twofortyfouram_locale_breadcrumb_separator">\u0020&gt;\u0020</string>
+    <string name="twofortyfouram_locale_menu_dontsave">Отмена</string>
+    <string name="twofortyfouram_locale_menu_help">Помощь</string>
+    <string name="twofortyfouram_locale_menu_save">Готово</string>
+
+    <string name="tasker_configuration">Настройка</string>
+    <string name="tasker_select_action">Действие</string>
+    <string name="tasker_select_profile">Выбрать профиль</string>
+    <string name="tasker_select_button">Выбрать клавишу</string>
+    <string name="none">Нет</string>
+    <string name="tasker">Tasker</string>
+    <string name="tasker_summary">Динамически включить/отключить профили</string>
+    <string name="tasker_profile_empty">Пожалуйста, выберите профиль</string>
+    <string name="tasker_no_profiles">Пожалуйста, создайте профиль</string>
+
+    <string name="tasker_enable_profile">Включить профиль</string>
+    <string name="tasker_disable_profile">Отключить профиль</string>
+    <string name="tasker_in_profile">в профиле %s</string>
+    <string name="tasker_pro_limitation">События Tasker недоступны в бесплатной версии. \nКупить полную версию, чтобы поддержать разработку и разблокировать события Tasker?</string>
+    <string name="tasker_events_wip">Эта функция находиться в разработке. В дальнейшем она будет улучшена.</string>
+    <!-- / Tasker plugin UI -->
+
+    <!-- App info -->
+    <string name="settings">Настройки</string>
+    <string name="information">О приложении</string>
+    <string name="share">Поделиться</string>
+    <string name="other_apps">Другие приложения</string>
+    <string name="version">Версия %s</string>
+    <string name="grant_perm">Предоставление разрешения</string>
+    <string name="perm_not_granted_desc"><![CDATA[
+        Данное приложение для применения настроек требует разрешение <i>WRITE_SECURE_SETTINGS</i>. Вы можете предоставить данное разрешение с использованием root-прав на устройстве, или воспользовавшись ПК.
+        <br><br><b>Если у Вас есть root-права</b>
+        <br>Нажмите кнопку "Далее" и разрешите суперпользователю автоматически предоставить разрешение или выполните действия, указанные ниже.
+        <br><b>1 </b>Откройте эмулятор терминала
+        <br><b>2 </b>Введите \'su\', чтобы войти в режим суперпользователя
+        <br><b>3 </b>Введите следующую команду для предоставления разрешения:
+        <br><br>pm grant xyz.paphonb.systemuituner android.permission.WRITE_SECURE_SETTINGS
+        <br><br><b>Если у Вас есть ПК</b>
+        <br><b>1 </b>Установите ADB
+        <br><b>2 </b>Подключите устройство с включенной отладкой по USB
+        <br><b>3 </b>Откройте командную строку
+        <br><b>4 </b>Введите \'adb shell\', для подключения к телефону
+        <br><b>5 </b>Введите следующую команду для предоставления разрешения:
+        <br><br>pm grant xyz.paphonb.systemuituner android.permission.WRITE_SECURE_SETTINGS
+        <br><br><b>Нажмите на кнопку внизу, чтобы скопировать команду.</b>
+    ]]></string>
+    <string name="retry_title">Попробовать снова</string>
+    <string name="retry_desc">Перезапустить тест</string>
+    <string name="copied">Скопировано</string>
+    <string name="help_needed">Тест не совместимость не пройден. Что делать дальше?</string>
+
+    <string name="buy">Купить</string>
+    <string name="buy_pro">Купить полную версию</string>
+    <string name="buy_pro_summary">Поддержать разработку и убрать рекламу</string>
+    <string name="thanks">Спасибо за поддержку разработки!</string>
+
+    <string name="welcome">Добро пожаловать в приложение Custom Navigation Bar. Это введение поможет вам настроить приложение.</string>
+    <string name="copy">Скопировать команду</string>
+    <string name="get_started">Начинаем</string>
+    <string name="safety_first">Безопасность прежде всего</string>
+    <string name="safety_desc"><![CDATA[
+        Чтобы убедиться, что это приложение будет работать на данном устройстве, Вам необходимо запустить тест совместимости.
+        <br><br>Нажмите <b>старт</b>, чтобы запустить тест.
+    ]]></string>
+    <string name="cancel">Отмена</string>
+    <string name="test_desc"><![CDATA[
+        Нажмите на <b>стрелочку в панели навигации</b>, чтобы продолжить.
+        <br><br>Если Вы ничего не видите - это означает, что Ваше устройство несовместимо с данным приложением.
+    ]]></string>
+    <string name="compatibility_test">Проверка совместимости</string>
+    <string name="finish">Закончить</string>
+    <string name="all_done">Все готово</string>
+    <string name="all_done_desc">Настройка завершена. Можно начинать пользоваться приложение.</string>
+    <string name="exit">Выход</string>
+    <string name="contact">Связаться с разработчиком</string>
+    <string name="no_email_app">Нет приложения электронной почты</string>
+    <string name="no_root">Пожалуйста, предоставьте разрешение с компьютера, используя ADB.</string>
+    <string name="not_compatible">Это приложение несовместимо с этой версией Android. Все функции будут отключены для предотвращения сбоев.</string>
+    <string name="might_not_be_compatible">Это приложение может не работать в Вашей версии Android.</string>
+
+    <string name="experimental">Экспериментальные настройки</string>
+    <string name="experimental_warning">Эти настройки позволят Вам переназначить существующие клавиши "Назад", "Домой" и "Обзор". Они могут не работать должным образом.</string>
+    <!-- / App info -->
+
+</resources>
