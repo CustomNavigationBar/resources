@@ -9,6 +9,7 @@
     <string name="nav_bar_layout_normal">Normal</string>
     <string name="nav_bar_layout_left">Left-leaning</string>
     <string name="nav_bar_layout_right">Right-leaning</string>
+    <string name="nav_bar_layout_center">Center</string>
     <string name="nav_bar_layout_compact">Compact</string>
     <string name="nav_bar_layout_tablet">Tablet</string>
 
@@ -31,6 +32,7 @@
     <string name="keycode">Keycode</string>
     <string name="clipboard">Clipboard</string>
     <string name="space">None</string>
+    <string name="spacer">Spacer</string>
     <string name="menu_ime">Keyboard Switcher</string>
     <string name="notifications">Notifications</string>
     <string name="tasker_event">Tasker event</string>
@@ -70,12 +72,14 @@
     <string name="disable_all_profiles">Disable all profiles</string>
     <string name="all_profiles_disabled">Disabled all profiles</string>
     <string name="app_shortcuts_max_limit">You have reached maximum limit for app shortcuts</string>
+    <string name="custom_layout_limitation">Custom layouts are not available in free version.\nBuy pro version to support the development and unlock custom layouts?</string>
     <!-- / Profiles -->
 
     <!-- Themes -->
     <string name="theme">Theme</string>
     <string name="theme_default">Default</string>
     <string name="theme_pixel">Pixel</string>
+    <string name="theme_filled">Filled</string>
     <string name="theme_invisible">Invisible</string>
     <string name="theme_holo">Holo</string>
     <string name="invalid_theme">Invalid theme</string>
