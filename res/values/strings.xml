@@ -73,6 +73,7 @@
     <string name="all_profiles_disabled">Disabled all profiles</string>
     <string name="app_shortcuts_max_limit">You have reached maximum limit for app shortcuts</string>
     <string name="custom_layout_limitation">Custom layouts are not available in free version.\nBuy pro version to support the development and unlock custom layouts?</string>
+    <string name="rename">Rename</string>
     <!-- / Profiles -->
 
     <!-- Themes -->
@@ -82,6 +83,7 @@
     <string name="theme_filled">Filled</string>
     <string name="theme_invisible">Invisible</string>
     <string name="theme_holo">Holo</string>
+    <string name="theme_material">Material</string>
     <string name="invalid_theme">Invalid theme</string>
     <string name="theme_limitation">Themes are not available in free version.\nBuy pro version to support the development and unlock themes?</string>
     <string name="wip_feature">This feature is currently in development. It will improve over time.</string>
@@ -123,18 +125,18 @@
     <string name="grant_perm">Grant permission</string>
     <string name="perm_not_granted_desc"><![CDATA[
         This app needs <i>WRITE_SECURE_SETTINGS</i> permission to apply changes. You can grant the permission by using root or a PC.
-        <br><br><b>If you have root</b>
-        <br>Press next and allow superuser access to automatically grant the permission or do the steps below.
-        <br><b>1 </b>Open Terminal Emulator
-        <br><b>2 </b>Type \'su\' to enter superuser mode
-        <br><b>3 </b>Type the following command to grant the permission
-        <br><br>pm grant xyz.paphonb.systemuituner android.permission.WRITE_SECURE_SETTINGS
         <br><br><b>If you have a PC</b>
         <br><b>1 </b>Install ADB on your PC
         <br><b>2 </b>Connect your phone with USB Debugging enabled
         <br><b>3 </b>Open a command prompt
         <br><b>4 </b>Type \'adb shell\' to enter adb shell
         <br><b>5 </b>Type the following command to grant the permission
+        <br><br>pm grant xyz.paphonb.systemuituner android.permission.WRITE_SECURE_SETTINGS
+        <br><br><b>If you have root</b>
+        <br>Press next and allow superuser access to automatically grant the permission or do the steps below.
+        <br><b>1 </b>Open Terminal Emulator
+        <br><b>2 </b>Type \'su\' to enter superuser mode
+        <br><b>3 </b>Type the following command to grant the permission
         <br><br>pm grant xyz.paphonb.systemuituner android.permission.WRITE_SECURE_SETTINGS
         <br><br><b>Click the button below to copy the command.</b>
     ]]></string>
@@ -174,6 +176,7 @@
 
     <string name="experimental">Experimental tweaks</string>
     <string name="experimental_warning">These settings allow you to replace the existing back, home and recent keys. They might not work as expected.</string>
+    <string name="dark_theme">Dark theme</string>
     <!-- / App info -->
 
 </resources>

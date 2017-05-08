@@ -112,18 +112,18 @@
     <string name="grant_perm">ให้สิทธิ</string>
     <string name="perm_not_granted_desc"><![CDATA[
         แอพนี้ต้องการสิทธ์ <i>WRITE_SECURE_SETTINGS</i> ในการแก้ไขแถบสถานะ คุณสามารถให้สิทธิ์นี้ได้โดยใช้ root หรือ PC
-        <br><br><b>หากคุณมี root</b>
-        <br>กดต่อไปและให้สิทธิ์ superuser หรือทำตามขั้นตอนด้านล่าง
-        <br><b>1 </b>เปิด Terminal Emulator
-        <br><b>2 </b>พิมพ์ \'su\' เพื่อเข้าโหมด superuser
-        <br><b>3 </b>พิมพ์คำสั่งต่อไปนี้เพื่อให้สิทธิ์
-        <br><br>pm grant xyz.paphonb.systemuituner android.permission.WRITE_SECURE_SETTINGS
         <br><br><b>หากตุณมี PC</b>
         <br><b>1 </b>ติดตั้ง ADB บน PC ของคุณ
         <br><b>2 </b>เชื่อมต่อโทรศัพท์โดยเปิดการแก้ไขข้อบกพร่อง USB
         <br><b>3 </b>เปิด command prompt
         <br><b>4 </b>พิมพ์ \'adb shell\' เพื่อเข้า adb shell
         <br><b>5 </b>พิมพ์คำสั่งต่อไปนี้เพื่อให้สิทธิ์
+        <br><br>pm grant xyz.paphonb.systemuituner android.permission.WRITE_SECURE_SETTINGS
+        <br><br><b>หากคุณมี root</b>
+        <br>กดต่อไปและให้สิทธิ์ superuser หรือทำตามขั้นตอนด้านล่าง
+        <br><b>1 </b>เปิด Terminal Emulator
+        <br><b>2 </b>พิมพ์ \'su\' เพื่อเข้าโหมด superuser
+        <br><b>3 </b>พิมพ์คำสั่งต่อไปนี้เพื่อให้สิทธิ์
         <br><br>pm grant xyz.paphonb.systemuituner android.permission.WRITE_SECURE_SETTINGS
         <br><br><b>คลิกปุ่มด้านล่างเพื่อคัดลอกคำสั่ง</b>
     ]]></string>
