@@ -35,6 +35,7 @@
     <string name="spacer">Spacer</string>
     <string name="menu_ime">Keyboard Switcher</string>
     <string name="notifications">Notifications</string>
+    <string name="media_volume">Media volume dialog</string>
     <string name="tasker_event">Tasker event</string>
     <string name="toggle_profile">Toggle profile</string>
     <string name="launch_app">Launch app</string>
@@ -72,9 +73,27 @@
     <string name="disable_all_profiles">Disable all profiles</string>
     <string name="all_profiles_disabled">Disabled all profiles</string>
     <string name="app_shortcuts_max_limit">You have reached maximum limit for app shortcuts</string>
-    <string name="custom_layout_limitation">Custom layouts are not available in free version.\nBuy pro version to support the development and unlock custom layouts?</string>
-    <string name="rename">Rename</string>
     <!-- / Profiles -->
+
+    <!-- Custom layout -->
+    <string name="preview">Preview</string>
+    <string name="start">Start</string>
+    <string name="center">Center</string>
+    <string name="end">End</string>
+    <string name="select_button">Select button to add</string>
+    <string name="add_button">Add button</string>
+    <string name="save">Save</string>
+    <string name="reset">Reset</string>
+
+    <string name="no_home_title">No home button found</string>
+    <string name="no_home_message">A home button is required to be able to navigate this device. Please add a home button before saving.</string>
+
+    <string name="adjust_button_width">Adjust button width</string>
+
+    <string name="custom_layout_limitation">Custom layouts are not available in free version.\nBuy pro version to support the development and unlock custom layouts?</string>
+    <string name="custom_layout_samsung_warning">These options might crash on Samsung devices. Be careful when using them.</string>
+    <string name="rename">Rename</string>
+    <!-- / Custom layout -->
 
     <!-- Themes -->
     <string name="theme">Theme</string>
@@ -177,6 +196,8 @@
     <string name="experimental">Experimental tweaks</string>
     <string name="experimental_warning">These settings allow you to replace the existing back, home and recent keys. They might not work as expected.</string>
     <string name="dark_theme">Dark theme</string>
+    <string name="reset_navbar">Reset</string>
+    <string name="reset_navbar_summary">Reset navbar to system default</string>
     <!-- / App info -->
 
 </resources>
