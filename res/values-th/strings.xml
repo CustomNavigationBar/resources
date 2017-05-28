@@ -8,7 +8,8 @@
     <string name="nav_bar_layout">โครงร่าง</string>
     <string name="nav_bar_layout_normal">ปกติ</string>
     <string name="nav_bar_layout_left">ทางซ้าย</string>
-    <string name="nav_bar_layout_right">ทาวขวา</string>
+    <string name="nav_bar_layout_right">ทางขวา</string>
+    <string name="nav_bar_layout_center">กลาง</string>
     <string name="nav_bar_layout_compact">เล็ก</string>
     <string name="nav_bar_layout_tablet">แท็บเล็ต</string>
 
@@ -31,16 +32,32 @@
     <string name="keycode">Keycode</string>
     <string name="clipboard">คลิบบอร์ด</string>
     <string name="space">ไม่มี</string>
+    <string name="spacer">ที่ว่าง</string>
     <string name="menu_ime">ปุ่มสลับเมนู/แป้นพิมพ์</string>
+    <string name="notifications">การแจ้งเตือน</string>
+    <string name="media_volume">ปรับเสียงมีเดีย</string>
     <string name="tasker_event">อีเวนต์ Tasker</string>
     <string name="toggle_profile">สลับโปรไฟล์</string>
     <string name="launch_app">เปิดแอพ</string>
+    <string name="single_tap">แตะหนึ่งครั้ง</string>
+    <string name="double_tap">แตะสองครั้ง</string>
+    <string name="long_press">กดค้าง</string>
+    <string name="double_tap_delay">ดีเลย์</string>
+    <string name="double_tap_incompatible">ไม่สามารถใช่งานได้กับปุ่มชนิดนี้</string>
+    <string name="dt_limitation">ไม่สามารถใช้งานการแตะสองครั้งในเวอร์ชั่นฟรีได้\nซื้อเวอร์ชั่นโปรเพื่อลบโฆษณาและปลดล็อคการแตะสองครั้งหรือไม่?</string>
     <!-- / Button types -->
 
     <!-- Button config -->
     <string name="xt_left_button">ปุ่มทางซ้าย</string>
     <string name="xt_center_button">Extra center button</string>
     <string name="xt_right_button">ปุ่มทางขวา</string>
+    <string name="xt_left_button_dt">ปุ่มทางซ้าย (แตะสองครั้ง)</string>
+    <string name="xt_center_button_dt">Extra center button (แตะสองครั้ง)</string>
+    <string name="xt_right_button_dt">ปุ่มทางขวา (แตะสองครั้ง)</string>
+    <string name="xt_n_button">ปุ่ม %s</string>
+    <string name="button_actions">การกระทำ</string>
+    <string name="button_action">การกระทำ</string>
+    <string name="button_override">แก้ไขปุ่มนี้</string>
     <string name="button_type">ชนิด</string>
     <string name="button_keycode">Keycode</string>
     <string name="button_icon">ไอคอน</string>
@@ -71,13 +88,42 @@
     <string name="app_shortcuts_max_limit">You have reached maximum limit for app shortcuts</string>
     <!-- / Profiles -->
 
+    <!-- Custom layout -->
+    <string name="preview">ตัวอย่าง</string>
+    <string name="start">ซ้าย</string>
+    <string name="center">กลาง</string>
+    <string name="end">ขวา</string>
+    <string name="select_button">เลื่อกปุ่มที่ต้องการเพิ่ม</string>
+    <string name="add_button">เพิ่มปุ่ม</string>
+    <string name="save">บันทึก</string>
+    <string name="reset">รีเซ็ต</string>
+
+    <string name="no_home_title">No home button found</string>
+    <string name="no_home_message">A home button is required to be able to navigate this device. Please add a home button before saving.</string>
+
+    <string name="adjust_button_width">ปรับความกว้างปุ่ม</string>
+
+    <string name="custom_layout_limitation">Custom layouts are not available in free version.\nBuy pro version to support the development and unlock custom layouts?</string>
+    <string name="custom_layout_samsung_warning">These options might crash on Samsung devices. Be careful when using them.</string>
+    <string name="rename">เปลี่ยนชื่อ</string>
+    <string name="smartbar">Smartbar</string>
+    <!-- / Custom layout -->
+
     <!-- Themes -->
     <string name="theme">ธีม</string>
     <string name="theme_default">ค่าเริ่มต้น</string>
-    <string name="theme_pixel">Pixel</string>
+    <string name="theme_pixel">พิกเซ็ล</string>
+    <string name="theme_s8">S8</string>
+    <string name="theme_filled">Filled</string>
+    <string name="theme_invisible">มองไม่เห็น</string>
+    <string name="theme_holo">Holo</string>
+    <string name="theme_material">Material</string>
+    <string name="invalid_theme">ธีมผิดพลาด</string>
     <string name="theme_limitation">ไม่สามารถใช้งานธีมในเวอร์ชั่นฟรีได้\nซื้อเวอร์ชั่นโปรเพื่อลบโฆษณาและปลดล็อคธีมหรือไม่?</string>
     <string name="wip_feature">ฟีเจอร์นี้อยู่ในระหว่างการพัฒนา</string>
     <string name="themes_warning">เมื่อธีมเปิดใช้งาน ปุ่มจะไม่สามารถคลิกค้างได้ เป็นข้อจำกัดของระบบ Android</string>
+    <string name="theme_incompatibility">Incompatibility</string>
+    <string name="theme_disable_screen_pinning">Themes are not compatible with screen pinning. Disable screen pinning?</string>
     <!-- / Themes -->
 
     <!-- Tasker plugin UI -->
@@ -91,6 +137,7 @@
     <string name="tasker_select_action">การกระทำ</string>
     <string name="tasker_select_profile">เลือกโปรไฟล์</string>
     <string name="tasker_select_button">เลือกปุ่ม</string>
+    <string name="none">ไม่มี</string>
     <string name="tasker">Tasker</string>
     <string name="tasker_summary">เปิด/ปิดโปรไฟล์ตามสถานะ</string>
     <string name="tasker_profile_empty">โปรดเลือกโปรไฟล์</string>
@@ -160,10 +207,22 @@
     <string name="no_root">โปรให้สิทธ์ด้วย ADB</string>
     <string name="not_compatible">แอพนี้ไม่สามารถเข้ากันได้กับ Android เวอร์ชั่นนี้</string>
     <string name="might_not_be_compatible">แอพนี้อาจไม่สามารถเข้ากันได้กับระบบ Android นี้</string>
-
     <string name="experimental">การตั้งค่าทดลอง</string>
     <string name="experimental_warning">เปลี่ยนปุ่ม ย้อนกลับ, หน้าหลักและ ภาพรวม</string>
-    <string name="none">ไม่มี</string>
+    <string name="dark_theme">ธีมสีดำ</string>
+    <string name="reset_navbar">รีเซ็ต</string>
+    <string name="reset_navbar_summary">Reset navbar to system default</string>
+    <string name="author">ผู้พัฒนา</string>
+    <string name="other_apps_summary">ดูแอพอื่นจากผู้พัฒนา</string>
+    <string name="share_text" formatted="false">ดู \"%s\"\nhttps://play.google.com/store/apps/details?id=%s</string>
+    <string name="share_with">แชร์ \"%s\" ผ่าน</string>
+    <string name="support_development">สนับสนุสการพัฒนา</string>
+    <string name="report_bugs">แจ้งบัค</string>
+    <string name="repoer_bugs_summary">แจ้งบัคหรือฟีเจอร์ใหม่</string>
+    <string name="translate">แปล</string>
+    <string name="translate_summary">แปลแอพนี้เป็นภาษาของคุณ</string>
+    <string name="send_email">ส่งอีเมลล์</string>
+    <string name="licenses">สัญญาอนุญาตสำหรับโอเพนซอร์ส</string>
     <!-- / App info -->
 
 </resources>
