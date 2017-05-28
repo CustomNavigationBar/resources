@@ -115,7 +115,7 @@
     <string name="information">О приложении</string>
     <string name="share">Поделиться</string>
     <string name="other_apps">Другие приложения</string>
-    <string name="version">Версия %s</string>
+    <string name="version">Версия</string>
     <string name="grant_perm">Предоставление разрешения</string>
     <string name="perm_not_granted_desc"><![CDATA[
         Данное приложение для применения настроек требует разрешение <i>WRITE_SECURE_SETTINGS</i>. Вы можете предоставить данное разрешение с использованием root-прав на устройстве, или воспользовавшись ПК.
@@ -125,13 +125,13 @@
         <br><b>3 </b>Откройте командную строку
         <br><b>4 </b>Введите \'adb shell\', для подключения к телефону
         <br><b>5 </b>Введите следующую команду для предоставления разрешения:
-        <br><br>pm grant xyz.paphonb.systemuituner android.permission.WRITE_SECURE_SETTINGS
+        <br><br>pm grant %1$s android.permission.WRITE_SECURE_SETTINGS
         <br><br><b>Если у Вас есть root-права</b>
         <br>Нажмите кнопку "Далее" и разрешите суперпользователю автоматически предоставить разрешение или выполните действия, указанные ниже.
         <br><b>1 </b>Откройте эмулятор терминала
         <br><b>2 </b>Введите \'su\', чтобы войти в режим суперпользователя
         <br><b>3 </b>Введите следующую команду для предоставления разрешения:
-        <br><br>pm grant xyz.paphonb.systemuituner android.permission.WRITE_SECURE_SETTINGS
+        <br><br>pm grant %1$s android.permission.WRITE_SECURE_SETTINGS
         <br><br><b>Нажмите на кнопку внизу, чтобы скопировать команду.</b>
     ]]></string>
     <string name="retry_title">Попробовать снова</string>
@@ -144,7 +144,7 @@
     <string name="buy_pro_summary">Поддержать разработку и убрать рекламу</string>
     <string name="thanks">Спасибо за поддержку разработки!</string>
 
-    <string name="welcome">Добро пожаловать в приложение Custom Navigation Bar. Это введение поможет вам настроить приложение.</string>
+    <string name="welcome">Добро пожаловать в приложение %s. Это введение поможет вам настроить приложение.</string>
     <string name="copy">Скопировать команду</string>
     <string name="get_started">Начинаем</string>
     <string name="safety_first">Безопасность прежде всего</string>

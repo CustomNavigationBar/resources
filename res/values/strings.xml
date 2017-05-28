@@ -1,4 +1,4 @@
-<resources tools:ignore="MissingTranslation" xmlns:tools="http://schemas.android.com/tools">
+<resources xmlns:tools="http://schemas.android.com/tools" tools:ignore="MissingTranslation">
     <string name="app_name">Custom Navigation Bar</string>
 
     <!-- Navbar config -->
@@ -39,12 +39,25 @@
     <string name="tasker_event">Tasker event</string>
     <string name="toggle_profile">Toggle profile</string>
     <string name="launch_app">Launch app</string>
+    <string name="single_tap">Single tap</string>
+    <string name="double_tap">Double tap</string>
+    <string name="long_press">Long press</string>
+    <string name="double_tap_delay">Delay</string>
+    <string name="double_tap_incompatible">Not compatible with this button type</string>
+    <string name="dt_limitation">Double tap is not available in free version.\nBuy pro version to support the development and unlock double tap?</string>
     <!-- / Button types -->
 
     <!-- Button config -->
     <string name="xt_left_button">Extra left button</string>
     <string name="xt_center_button">Extra center button</string>
     <string name="xt_right_button">Extra right button</string>
+    <string name="xt_left_button_dt">Extra left button (double tap)</string>
+    <string name="xt_center_button_dt">Extra center button (double tap)</string>
+    <string name="xt_right_button_dt">Extra right button (double tap)</string>
+    <string name="xt_n_button">Extra button %s</string>
+    <string name="button_actions">Actions</string>
+    <string name="button_action">Action</string>
+    <string name="button_override">Override this button</string>
     <string name="button_type">Type</string>
     <string name="button_keycode">Keycode</string>
     <string name="button_icon">Icon</string>
@@ -93,12 +106,14 @@
     <string name="custom_layout_limitation">Custom layouts are not available in free version.\nBuy pro version to support the development and unlock custom layouts?</string>
     <string name="custom_layout_samsung_warning">These options might crash on Samsung devices. Be careful when using them.</string>
     <string name="rename">Rename</string>
+    <string name="smartbar">Smartbar</string>
     <!-- / Custom layout -->
 
     <!-- Themes -->
     <string name="theme">Theme</string>
     <string name="theme_default">Default</string>
     <string name="theme_pixel">Pixel</string>
+    <string name="theme_s8">S8</string>
     <string name="theme_filled">Filled</string>
     <string name="theme_invisible">Invisible</string>
     <string name="theme_holo">Holo</string>
@@ -139,8 +154,8 @@
     <string name="settings">Settings</string>
     <string name="information">About</string>
     <string name="share">Share</string>
-    <string name="other_apps">Other apps</string>
-    <string name="version">Version %s</string>
+    <string name="other_apps">More apps</string>
+    <string name="version">Version</string>
     <string name="grant_perm">Grant permission</string>
     <string name="perm_not_granted_desc"><![CDATA[
         This app needs <i>WRITE_SECURE_SETTINGS</i> permission to apply changes. You can grant the permission by using root or a PC.
@@ -150,13 +165,13 @@
         <br><b>3 </b>Open a command prompt
         <br><b>4 </b>Type \'adb shell\' to enter adb shell
         <br><b>5 </b>Type the following command to grant the permission
-        <br><br>pm grant xyz.paphonb.systemuituner android.permission.WRITE_SECURE_SETTINGS
+        <br><br>pm grant %1$s android.permission.WRITE_SECURE_SETTINGS
         <br><br><b>If you have root</b>
         <br>Press next and allow superuser access to automatically grant the permission or do the steps below.
         <br><b>1 </b>Open Terminal Emulator
         <br><b>2 </b>Type \'su\' to enter superuser mode
         <br><b>3 </b>Type the following command to grant the permission
-        <br><br>pm grant xyz.paphonb.systemuituner android.permission.WRITE_SECURE_SETTINGS
+        <br><br>pm grant %1$s android.permission.WRITE_SECURE_SETTINGS
         <br><br><b>Click the button below to copy the command.</b>
     ]]></string>
     <string name="retry_title">Retry</string>
@@ -169,7 +184,7 @@
     <string name="buy_pro_summary">Support the development and remove ads</string>
     <string name="thanks">Thank you for supporting the development.</string>
 
-    <string name="welcome">Welcome to Custom Navigation Bar. This intro will help you get started.</string>
+    <string name="welcome">Welcome to %s. This intro will help you get started.</string>
     <string name="copy">Copy command</string>
     <string name="get_started">Get started</string>
     <string name="safety_first">Safety first</string>
@@ -192,12 +207,23 @@
     <string name="no_root">Please grant the permission from your PC using ADB.</string>
     <string name="not_compatible">This application is not compatible with this Android version. All functions will be disabled to prevent crashes.</string>
     <string name="might_not_be_compatible">This application might not work on your Android system.</string>
-
     <string name="experimental">Experimental tweaks</string>
     <string name="experimental_warning">These settings allow you to replace the existing back, home and recent keys. They might not work as expected.</string>
     <string name="dark_theme">Dark theme</string>
     <string name="reset_navbar">Reset</string>
     <string name="reset_navbar_summary">Reset navbar to system default</string>
+    <string name="author">Author</string>
+    <string name="developer_name">paphonb</string>
+    <string name="other_apps_summary">Check out other apps from me</string>
+    <string name="share_text" formatted="false">Check out \"%s\"\nhttps://play.google.com/store/apps/details?id=%s</string>
+    <string name="share_with">Share with</string>
+    <string name="support_development">Support development</string>
+    <string name="report_bugs">Report bugs</string>
+    <string name="repoer_bugs_summary">Report bugs or request new features</string>
+    <string name="translate">Translate</string>
+    <string name="translate_summary">Translate the app to your language</string>
+    <string name="send_email">Send email</string>
+    <string name="licenses">Open source licenses</string>
     <!-- / App info -->
 
 </resources>

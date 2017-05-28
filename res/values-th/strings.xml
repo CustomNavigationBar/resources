@@ -108,7 +108,7 @@
     <string name="information">เกี่ยวกับ</string>
     <string name="share">แชร์</string>
     <string name="other_apps">แอพอื่นๆ</string>
-    <string name="version">เวอร์ชั่น %s</string>
+    <string name="version">เวอร์ชั่น</string>
     <string name="grant_perm">ให้สิทธิ</string>
     <string name="perm_not_granted_desc"><![CDATA[
         แอพนี้ต้องการสิทธ์ <i>WRITE_SECURE_SETTINGS</i> ในการแก้ไขแถบสถานะ คุณสามารถให้สิทธิ์นี้ได้โดยใช้ root หรือ PC
@@ -118,13 +118,13 @@
         <br><b>3 </b>เปิด command prompt
         <br><b>4 </b>พิมพ์ \'adb shell\' เพื่อเข้า adb shell
         <br><b>5 </b>พิมพ์คำสั่งต่อไปนี้เพื่อให้สิทธิ์
-        <br><br>pm grant xyz.paphonb.systemuituner android.permission.WRITE_SECURE_SETTINGS
+        <br><br>pm grant %1$s android.permission.WRITE_SECURE_SETTINGS
         <br><br><b>หากคุณมี root</b>
         <br>กดต่อไปและให้สิทธิ์ superuser หรือทำตามขั้นตอนด้านล่าง
         <br><b>1 </b>เปิด Terminal Emulator
         <br><b>2 </b>พิมพ์ \'su\' เพื่อเข้าโหมด superuser
         <br><b>3 </b>พิมพ์คำสั่งต่อไปนี้เพื่อให้สิทธิ์
-        <br><br>pm grant xyz.paphonb.systemuituner android.permission.WRITE_SECURE_SETTINGS
+        <br><br>pm grant %1$s android.permission.WRITE_SECURE_SETTINGS
         <br><br><b>คลิกปุ่มด้านล่างเพื่อคัดลอกคำสั่ง</b>
     ]]></string>
     <string name="retry_title">ลองอีกครั้ง</string>
@@ -137,7 +137,7 @@
     <string name="buy_pro_summary">สนับสนุนการพัฒนาและลบโฆษณา</string>
     <string name="thanks">ขอบคุณสำหรับการสนับสนุนการพัฒนา</string>
 
-    <string name="welcome">ยินดีต้อนรันสู่ Custom Navigation Bar Bar</string>
+    <string name="welcome">ยินดีต้อนรันสู่ %s</string>
     <string name="copy">คัดลอกคำสั่ง</string>
     <string name="get_started">เริ่ม</string>
     <string name="safety_first">ปลอดภัยไว้ก่อน</string>

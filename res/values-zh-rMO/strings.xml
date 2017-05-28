@@ -140,7 +140,7 @@
     <string name="information">關於</string>
     <string name="share">Share</string>
     <string name="other_apps">其他應用程式</string>
-    <string name="version">版本 %s</string>
+    <string name="version">版本</string>
     <string name="grant_perm">授予權限</string>
     <string name="perm_not_granted_desc"><![CDATA[
     此應用程式需要 <i>WRITE_SECURE_SETTINGS</i>的權限變更導覽列樣式。你可以透過Root或通過電腦獲取權限。
@@ -150,13 +150,13 @@
     <br><b>3 </b>開啟指令輸入
     <br><b>4 </b>輸入 \'adb shell\' 進入 adb shell
     <br><b>5</b>輸入以下指令
-    <br><br>pm grant xyz.paphonb.systemuituner android.permission.WRITE_SECURE_SETTINGS
+    <br><br>pm grant %1$s android.permission.WRITE_SECURE_SETTINGS
     <br><br><b>如你的裝置已有Root的權限</b>
     <br>請按下一步及允許超級使用者權限以獲得權限或透過下列方法授予權限。
     <br><b>1</b>開啟終端機模擬器
     <br><b>2 </b>輸入 \'su\' 進入 超級使用者模式
     <br><b>3 </b>輸入以下指令
-    <br><br>pm grant xyz.paphonb.systemuituner android.permission. WRITE_SECURE_SETTINGS
+    <br><br>pm grant %1$s android.permission.WRITE_SECURE_SETTINGS
     <br><br><b>你可按下方的按鍵複製此指令</b>
     ]]></string>
     <string name="retry_title">重試</string>
@@ -169,7 +169,7 @@
     <string name="buy_pro_summary">移除廣告顯示及支持開發</string>
     <string name="thanks">謝謝你支持開發。</string>
 
-    <string name="welcome">歡迎使用 Custom Navigation Bar。此簡介將會指導你如何開始使用此應用程式。</string>
+    <string name="welcome">歡迎使用 %s。此簡介將會指導你如何開始使用此應用程式。</string>
     <string name="copy">複製指令</string>
     <string name="get_started">開始！</string>
     <string name="safety_first">安全性為首要</string>
