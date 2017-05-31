@@ -39,12 +39,25 @@
     <string name="tasker_event">Tasker事件</string>
     <string name="toggle_profile">切換樣式設定檔</string>
     <string name="launch_app">開啟應用程式</string>
+    <string name="single_tap">單按</string>
+    <string name="double_tap">雙按</string>
+    <string name="long_press">長按</string>
+    <string name="double_tap_delay">延遲</string>
+    <string name="double_tap_incompatible">與此按鍵類別不相容</string>
+    <string name="dt_limitation">免費版本不支援「雙按」\n購買專業版本以使用「雙按」及支持開發。</string>
     <!-- / Button types -->
 
     <!-- Button config -->
     <string name="xt_left_button">額外的左方導覽鍵</string>
     <string name="xt_center_button">額外的中間導覽鍵</string>
     <string name="xt_right_button">額外的右方導覽鍵</string>
+    <string name="xt_left_button_dt">額外的左方導覽鍵 (雙按)</string>
+    <string name="xt_center_button_dt">額外的中間導覽鍵 (雙按)</string>
+    <string name="xt_right_button_dt">額外的右方導覽鍵 (雙按)</string>
+    <string name="xt_n_button">額外按鍵 %s</string>
+    <string name="button_actions">動作</string>
+    <string name="button_action">動作</string>
+    <string name="button_override">直接取替此按鍵</string>
     <string name="button_type">類別</string>
     <string name="button_keycode">鍵碼</string>
     <string name="button_icon">圖示</string>
@@ -93,12 +106,14 @@
     <string name="custom_layout_limitation">免費版本不支援自定樣式。\n購買專業版本以解鎖及支持開發。</string>
     <string name="custom_layout_samsung_warning">自定樣式可能不相容於Samsung的裝置，使用時請作個人考慮。</string>
     <string name="rename">重新命名</string>
+    <string name="smartbar">智能列</string>
     <!-- / Custom layout -->
     
     <!-- Themes -->
     <string name="theme">主題</string>
     <string name="theme_default">預設</string>
     <string name="theme_pixel">Pixel</string>
+    <string name="theme_s8">S8</string>
     <string name="theme_filled">Filled</string>
     <string name="theme_invisible">Invisible</string>
     <string name="theme_holo">Holo</string>
@@ -192,12 +207,22 @@
     <string name="no_root">請在電腦利用ADB授予權限。</string>
     <string name="not_compatible">此應用程式與你的Android版本不相容。為免程式錯誤出現，所有功能將被禁止使用。</string>
     <string name="might_not_be_compatible">此應用程式在你的Android版本的使用效果可能未如理想或無法使用。</string>
-
     <string name="experimental">實驗性功能</string>
     <string name="experimental_warning">這些設定允許你替換原有的主頁鍵、返回鍵及最近使用的應用程序鍵。（可能在部分裝置或系統版本無法使用） </string>
     <string name="dark_theme">夜間模式</string>
     <string name="reset_navbar">重置</string>
     <string name="reset_navbar_summary">重置導覽列至系統預設</string>
+    <string name="author">開發者</string>
+    <string name="other_apps_summary">查看我其他應用程式</string>
+    <string name="share_text" formatted="false">查看 \"%s\"\nhttps://play.google.com/store/apps/details?id=%s</string>
+    <string name="share_with">分享至</string>
+    <string name="support_development">支持開發</string>
+    <string name="report_bugs">報告程式錯誤</string>
+    <string name="repoer_bugs_summary">報告程式錯誤或建議新功能</string>
+    <string name="translate">翻譯</string>
+    <string name="translate_summary">為程式進行翻譯</string>
+    <string name="send_email">發送電子郵件</string>
+    <string name="licenses">Open source licenses</string>
     <!-- / App info -->
 
 </resources>
