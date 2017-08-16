@@ -1,0 +1,228 @@
+<resources xmlns:tools="http://schemas.android.com/tools" tools:ignore="MissingTranslation">
+    <string name="app_name">Custom Navigation Bar</string>
+
+    <!-- Navbar config -->
+    <string name="nav_bar">Navigationsleiste</string>
+    <string name="nav_bar_summary">Passe die Navigationsleiste nach Deinen Wünschen an</string>
+
+    <string name="nav_bar_layout">Layout</string>
+    <string name="nav_bar_layout_normal">Normal</string>
+    <string name="nav_bar_layout_left">Linksbündig</string>
+    <string name="nav_bar_layout_right">Rechtsbündig</string>
+    <string name="nav_bar_layout_center">Zentriert</string>
+    <string name="nav_bar_layout_compact">Kompakt</string>
+    <string name="nav_bar_layout_tablet">Tablet</string>
+
+    <string name="nav_bar_inverted">Invertiert</string>
+    <string name="nav_bar_inverted_summary">Vertausche die 'Zurück' und 'Letzte Apps' Buttons</string>
+
+    <string name="nav_bar_normalize_button_size">Buttongröße normalisieren</string>
+    <string name="nav_bar_normalize_button_size_summary">Allen Buttons die gleiche Größe zuweisen</string>
+
+    <string name="immersive">Immersive Mode</string>
+    <string name="change_immersive_settings">Ändere das Verhalten des Immersive Modes</string>
+    <string name="hide_status">Statusleiste ausblenden</string>
+    <string name="hide_nav">Navigationsleiste ausblenden</string>
+    <!-- / Navbar config -->
+
+    <!-- Button types -->
+    <string name="accessibility_home">Home</string>
+    <string name="accessibility_back">Zurück</string>
+    <string name="accessibility_recent">Letzte Apps</string>
+    <string name="keycode">Keycode</string>
+    <string name="clipboard">Zwischenablage</string>
+    <string name="space">Leerzeichen</string>
+    <string name="spacer">Lückenfüller</string>
+    <string name="menu_ime">Keyboard-Auswahl</string>
+    <string name="notifications">Benachrichtigungen</string>
+    <string name="media_volume">Lautstärkedialog</string>
+    <string name="tasker_event">Tasker Event</string>
+    <string name="toggle_profile">Profil an-/ausschalten</string>
+    <string name="launch_app">Starte App</string>
+    <string name="single_tap">Einzeltipp</string>
+    <string name="double_tap">Doppeltipp</string>
+    <string name="long_press">Lange drücken</string>
+    <string name="double_tap_delay">Verzögerung</string>
+    <string name="double_tap_incompatible">Nicht mit dieser Art von Button kompatibel</string>
+    <string name="dt_limitation">Doppeltaps sind in der kostenlosen Version nicht verfügbar.\nMöchtest Du die Pro-Version kaufen und die Funktion freischalten?</string>
+    <!-- / Button types -->
+
+    <!-- Button config -->
+    <string name="xt_left_button">Zusätzlicher linker Button</string>
+    <string name="xt_center_button">Zusätzlicher mittlerer Button</string>
+    <string name="xt_right_button">Zusätzlicher rechter Button</string>
+    <string name="xt_left_button_dt">Zusätzlicher linker Button (Doppeltipp)</string>
+    <string name="xt_center_button_dt">Zusätzlicher mittlerer Button (Doppeltipp)</string>
+    <string name="xt_right_button_dt">Zusätzlicher rechter Button (Doppeltipp)</string>
+    <string name="xt_n_button">Zusätzlicher Button %s</string>
+    <string name="button_actions">Aktionen</string>
+    <string name="button_action">Aktion</string>
+    <string name="button_override">Diesen Button überschreiben</string>
+    <string name="button_type">Typ</string>
+    <string name="button_keycode">Keycode</string>
+    <string name="button_icon">Symbol</string>
+    <string name="unchanged">Unverändert</string>
+    <!-- / Button config -->
+
+    <!-- App selector -->
+    <string name="select_apps">Wähle eine App aus</string>
+    <string name="action_search">Suchen</string>
+    <string name="no_result">Kein Ergebnis</string>
+    <!-- / App selector -->
+
+    <!-- Profiles -->
+    <string name="profiles">Profile</string>
+    <string name="profiles_summary">Erstelle Profile, die ein-/ausgeschaltet werden können</string>
+    <string name="no_profiles">Keine Profile</string>
+    <string name="automation">Automatisierung</string>
+    <string name="profile">Profil</string>
+    <string name="profile_enabled">Aktiviert</string>
+    <string name="profile_name">Name</string>
+    <string name="profile_name_summary">Profil umbenennen</string>
+    <string name="delete">Löschen</string>
+    <string name="profiles_limitation">Die kostenlose Version ist auf zwei Profile beschränkt.\nMöchtest Du die Pro-Vesion kaufen und das Limit aufheben?</string>
+    <string name="profile_show_in_app_shortcuts">In den App-Shortcuts anzeigen</string>
+    <string name="profile_app_shortcut_toggle">Aktiviere/Deaktiviere \"%s\"</string>
+    <string name="disable_all_profiles">Alle Profile deaktivieren</string>
+    <string name="all_profiles_disabled">Alle Profile deaktiviert</string>
+    <string name="app_shortcuts_max_limit">Die maximale Anzahl an App-Shortcuts ist erreicht</string>
+    <!-- / Profiles -->
+
+    <!-- Custom layout -->
+    <string name="preview">Vorschau</string>
+    <string name="start">Start</string>
+    <string name="center">Mitte</string>
+    <string name="end">Ende</string>
+    <string name="select_button">Wähle einen Button zum Hinzufügen aus</string>
+    <string name="add_button">Button hinzufügen
+    <string name="save">Speichern</string>
+    <string name="reset">Zurücksetzen</string>
+
+    <string name="no_home_title">Kein Homebutton gefunden</string>
+    <string name="no_home_message">Zur Gerätenavigation ist ein Homebutton nötig. Bitte füge vor dem Speichern einen Homebutton hinzu.</string>
+
+    <string name="adjust_button_width">Buttongröße anpassen</string>
+
+    <string name="custom_layout_limitation">Benutzerdefinierte Layouts sind in der kostenlosen Version nicht enthalten.\nMöchtest Du die Pro-Version kaufen und benutzerdefinierte Layouts freischalten?</string>
+    <string name="custom_layout_samsung_warning">Diese Einstellungen können einige Samsung-Geräte zum Absturz bringen. Benutzen Sie diese vorsichtig.</string>
+    <string name="rename">Umbenennen</string>
+    <string name="smartbar">Smartbar</string>
+    <!-- / Custom layout -->
+
+    <!-- Themes -->
+    <string name="theme">Theme</string>
+    <string name="theme_default">Standard</string>
+    <string name="theme_pixel">Pixel</string>
+    <string name="theme_s8">S8</string>
+    <string name="theme_filled">Ausgefüllt</string>
+    <string name="theme_invisible">Unsichtbar</string>
+    <string name="theme_holo">Holo</string>
+    <string name="theme_material">Material</string>
+    <string name="invalid_theme">Unzulässiges Design</string>
+    <string name="theme_limitation">Themes sind in der kostenlosen Version nicht enthalten.\nMöchtest Du die Pro-Version kaufen und die Themes freischalten?</string>
+    <string name="wip_feature">Diese Funktion befindet sich in der Entwicklung. Sie wird im Laufe der Zeit verbessert.</string>
+    <string name="themes_warning">Buttons mit angewendetem Theme unterstützen kein langes Drücken. Dies ist eine Beschränkung seitens Android und kann nicht behoben werden.</string>
+    <string name="theme_incompatibility">Inkompatibilität</string>
+    <string name="theme_disable_screen_pinning">Themes sind mit der Screen-Pinning-Funktion nicht kompatibel. Screen-Pinning deaktivieren?</string>
+    <!-- / Themes -->
+
+    <!-- Tasker plugin UI -->
+    <string name="twofortyfouram_locale_breadcrumb_format">%1$s%2$s%3$s</string>
+    <string name="twofortyfouram_locale_breadcrumb_separator">\u0020&gt;\u0020</string>
+    <string name="twofortyfouram_locale_menu_dontsave">Abbrechen</string>
+    <string name="twofortyfouram_locale_menu_help">Hilfe</string>
+    <string name="twofortyfouram_locale_menu_save">Fertig</string>
+
+    <string name="tasker_configuration">Konfiguration</string>
+    <string name="tasker_select_action">Aktion</string>
+    <string name="tasker_select_profile">Profil auswählen</string>
+    <string name="tasker_select_button">Button auswählen</string>
+    <string name="none">Nichts</string>
+    <string name="tasker">Tasker</string>
+    <string name="tasker_summary">Profile dynamisch ein-/ausschalten</string>
+    <string name="tasker_profile_empty">Bitte wähle ein Profil aus</string>
+    <string name="tasker_no_profiles">Bitte erstelle ein Profil</string>
+
+    <string name="tasker_enable_profile">Profil aktivieren</string>
+    <string name="tasker_disable_profile">Profil deaktivieren</string>
+    <string name="tasker_in_profile">im Profil %s</string>
+    <string name="tasker_pro_limitation">Tasker-Events sind in der kostenlosen Version nicht enthalten.\nMöchtest Du die Pro-Version kaufen und Tasker-Events freischalten?</string>
+    <string name="tasker_events_wip">Diese Funktion befindet sich in der Entwicklung. Sie wird im Laufe der Zeit verbessert.</string>
+    <!-- / Tasker plugin UI -->
+
+    <!-- App info -->
+    <string name="settings">Einstellungen</string>
+    <string name="information">Über</string>
+    <string name="share">Teilen</string>
+    <string name="other_apps">Mehr Apps>
+    <string name="version">Version</string>
+    <string name="grant_perm">Berechtigungen erteilen</string>
+    <string name="perm_not_granted_desc"><![CDATA[
+        Diese App benötigt die Berechtigung <i>WRITE_SECURE_SETTINGS</i>, um Änderungen vornehmen zu können. Du kannst die Berechtigung per root oder am PC erteilen.
+        <br><br><b>Wenn Du einen PC hast:</b>
+        <br><b>1 </b>Installiere ADB auf deinem PC
+        <br><b>2 </b>Aktiviere USB-Debugging auf deinem Smartphone und verbinde es mit dem PC
+        <br><b>3 </b>Öffne ein Terminal
+        <br><b>4 </b>Gebe \'adb shell\' ein, um auf die ADB-Shell deines Smartphones zuzugreifen
+        <br><b>5 </b>Gebe folgenden Befehl ein, um die Berechtigung zu erteilen:
+        <br><br>pm grant %1$s android.permission.WRITE_SECURE_SETTINGS
+        <br><br><b>IWenn Dein Handy gerootet ist:</b>
+        <br>Tippe auf weiter und erlaube SuperUser, die weiteren Schritte für dich zu erledigen oder befolge folgende Schritte:
+        <br><b>1 </b>Öffne einen Terminal-Emulator
+        <br><b>2 </b>Gebe \'su\' ein, um in den SuperUser-Modus zu gelangen
+        <br><b>3 </b>Gebe den folgenden Befehl ein, um die Berechtigung zu erteilen:
+        <br><br>pm grant %1$s android.permission.WRITE_SECURE_SETTINGS
+        <br><br><b>Tippe auf den Button unten, um den Befehl zu kopieren.</b>
+    ]]></string>
+    <string name="retry_title">Erneut versuchen</string>
+    <string name="retry_desc">Test wiederholen
+    <string name="copied">Kopiert</string>
+    <string name="help_needed">Kompatibilitätstest fehlgeschlagen. Was möchtest Du als nächstes tun?</string>
+
+    <string name="buy">Kaufen</string>
+    <string name="buy_pro">Pro-Version kaufen
+    <string name="buy_pro_summary">Unterstütze meine Arbeit und entferne die Werbung</string>
+    <string name="thanks">Vielen Dank für Deine Unterstützung!</string>
+
+    <string name="welcome">Willkommen zu %s. Dieses Intro wird dir helfen, zurecht zu kommen.</string>
+    <string name="copy">Befehl kopieren</string>
+    <string name="get_started">Los geht's</string>
+    <string name="safety_first">Sicherheit geht vor</string>
+    <string name="safety_desc"><![CDATA[
+        Um sicherzustellen, dass die App auf Deinem Gerät funktioniert, muss ein Kompatibilitätstest durchgeführt werden.
+        <br><br>Tippe auf <b>Start</b>, um mit dem Test zu beginnen.
+    ]]></string>
+    <string name="Abbrechen">Cancel</string>
+    <string name="test_desc"><![CDATA[
+        Tippe auf den <b>weiter Button auf Deiner Nabigationsleiste</b>, um fortzufahren.
+        <br><br>Wenn Du nichts siehst, ist Dein gerät nicht mit dieser App kompatibel.
+    ]]></string>
+    <string name="compatibility_test">Kompatibilitätstest</string>
+    <string name="finish">Fertigstellen</string>
+    <string name="all_done">Alles erledigtg>
+    <string name="all_done_desc">Das Setup ist vollständig. Du kannst die App jetzt verwenden.</string>
+    <string name="exit">Schließen</string>
+    <string name="contact">Den Entwickler kontaktieren</string>
+    <string name="no_email_app">Keine E-Mail App</string>
+    <string name="no_root">Bitte erteile die Berechtigung per root oder von Deinem PC aus.</string>
+    <string name="not_compatible">Diese App ist nicht mit dieser Android-Version kompatibel. Um Abstürze zu vermeiden, werden alle Funktionen vorsorglich deaktiviert.</string>
+    <string name="might_not_be_compatible">Diese App funktioniert auf Deinem Gerät unter Umständen nicht korrekt.</string>
+    <string name="experimental">Experimentelle Einstellungen</string>
+    <string name="experimental_warning">Diese Einstellungen erlauben es Dir, die standardmäßigen Home-, Zurück- und Letzte-Apps-Tasten zu ersetzen. Es kann vorkommen, dass diese nicht wie erwartet funktionieren.</string>
+    <string name="dark_theme">Dunkles Design</string>
+    <string name="reset_navbar">Zurücksetzen</string>
+    <string name="reset_navbar_summary">Setzt die Navigationsleiste auf die Voreinstellungen zurück</string>
+    <string name="author">Autor</string>
+    <string name="other_apps_summary">Sieh' Dir auch meine anderen Apps an</string>
+    <string name="share_text" formatted="false">Sie Dir das mal an: \"%s\"\nhttps://play.google.com/store/apps/details?id=%s</string>
+    <string name="share_with">Teile \"%s\" mit</string>
+    <string name="support_development">Unterstütze die Entwicklung dieser App</string>
+    <string name="report_bugs">Bug melden</string>
+    <string name="repoer_bugs_summary">Melde Bugs oder schlage neue Features vor</string>
+    <string name="translate">Übersetzen</string>
+    <string name="translate_summary">Übersetze diese App in Deine Sprache</string>
+    <string name="send_email">Sende mir eine E-Mail</string>
+    <string name="licenses">Open Source Lizenzen</string>
+    <!-- / App info -->
+
+</resources>
