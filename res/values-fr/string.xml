@@ -2,76 +2,76 @@
     <string name="app_name">Custom Navigation Bar</string>
 
     <!-- Navbar config -->
-    <string name="nav_bar">Navigation bar</string>
-    <string name="nav_bar_summary">Change how the navigation bar should look like</string>
+    <string name="nav_bar">Barre de navigation</string>
+    <string name="nav_bar_summary">Régler l\'apparence de la barre de navigation</string>
 
-    <string name="nav_bar_layout">Layout</string>
-    <string name="nav_bar_layout_normal">Normal</string>
-    <string name="nav_bar_layout_left">Left-leaning</string>
-    <string name="nav_bar_layout_right">Right-leaning</string>
-    <string name="nav_bar_layout_center">Center</string>
-    <string name="nav_bar_layout_compact">Compact</string>
-    <string name="nav_bar_layout_tablet">Tablet</string>
+    <string name="nav_bar_layout">Disposition</string>
+    <string name="nav_bar_layout_normal">Normale</string>
+    <string name="nav_bar_layout_left">Aligner à gauche</string>
+    <string name="nav_bar_layout_right">Aligner à droite</string>
+    <string name="nav_bar_layout_center">Centrer</string>
+    <string name="nav_bar_layout_compact">Compacte</string>
+    <string name="nav_bar_layout_tablet">Tablette</string>
 
-    <string name="nav_bar_inverted">Inverted</string>
-    <string name="nav_bar_inverted_summary">Swap back and recents button</string>
+    <string name="nav_bar_inverted">Inverser</string>
+    <string name="nav_bar_inverted_summary">Échanger les boutons \"Retour\" et \"Applications récentes\"</string>
 
-    <string name="nav_bar_normalize_button_size">Normalize button size</string>
-    <string name="nav_bar_normalize_button_size_summary">Make all buttons the same size</string>
+    <string name="nav_bar_normalize_button_size">Harmoniser la taille des boutons</string>
+    <string name="nav_bar_normalize_button_size_summary">Uniformiser la taille de tous les boutons</string>
 
-    <string name="immersive">Immersive mode</string>
-    <string name="change_immersive_settings">Change immersive settings</string>
-    <string name="hide_status">Hide status bar</string>
-    <string name="hide_nav">Hide navbar</string>
+    <string name="immersive">Mode immersif</string>
+    <string name="change_immersive_settings">Régler les paramètres du Mode immersif</string>
+    <string name="hide_status">Masquer la barre d\'état</string>
+    <string name="hide_nav">Masquer la barre de navigation</string>
     <!-- / Navbar config -->
 
     <!-- Button types -->
-    <string name="accessibility_home">Home</string>
-    <string name="accessibility_back">Back</string>
-    <string name="accessibility_recent">Overview</string>
-    <string name="keycode">Keycode</string>
-    <string name="clipboard">Clipboard</string>
-    <string name="space">None</string>
-    <string name="spacer">Spacer</string>
-    <string name="menu_ime">Keyboard Switcher</string>
+    <string name="accessibility_home">Accueil</string>
+    <string name="accessibility_back">Retour</string>
+    <string name="accessibility_recent">Applications récentes</string>
+    <string name="keycode">Code clé</string>
+    <string name="clipboard">Presse-papiers</string>
+    <string name="space">Aucun</string>
+    <string name="spacer">Espacement</string>
+    <string name="menu_ime">Commutateur de clavier</string>
     <string name="notifications">Notifications</string>
-    <string name="media_volume">Media volume dialog</string>
-    <string name="tasker_event">Tasker event</string>
-    <string name="toggle_profile">Toggle profile</string>
-    <string name="launch_app">Launch app</string>
-    <string name="single_tap">Single tap</string>
-    <string name="double_tap">Double tap</string>
-    <string name="long_press">Long press</string>
-    <string name="double_tap_delay">Delay</string>
-    <string name="double_tap_incompatible">Not compatible with this button type</string>
-    <string name="dt_limitation">Double tap is not available in free version.\nBuy pro version to support the development and unlock double tap?</string>
+    <string name="media_volume">Boîte de dialogue de volume de média</string>
+    <string name="tasker_event">Événement \"Tasker\"</string>
+    <string name="toggle_profile">Commutateur de profil</string>
+    <string name="launch_app">Démarrer l\'application</string>
+    <string name="single_tap">Appui simple</string>
+    <string name="double_tap">Double appui</string>
+    <string name="long_press">Appui prolongé</string>
+    <string name="double_tap_delay">Délai</string>
+    <string name="double_tap_incompatible">Incompatible avec ce type de bouton</string>
+    <string name="dt_limitation">Les options de double appui ne sont pas disponibles avec la version gratuite.\nAcheter la version Pro pour soutenir le développement et débloquer cette option ?</string>
     <!-- / Button types -->
 
     <!-- Button config -->
-    <string name="xt_left_button">Extra left button</string>
-    <string name="xt_center_button">Extra center button</string>
-    <string name="xt_right_button">Extra right button</string>
-    <string name="xt_left_button_dt">Extra left button (double tap)</string>
-    <string name="xt_center_button_dt">Extra center button (double tap)</string>
-    <string name="xt_right_button_dt">Extra right button (double tap)</string>
-    <string name="xt_n_button">Extra button %s</string>
+    <string name="xt_left_button">Bouton supplémentaire gauche</string>
+    <string name="xt_center_button">Bouton supplémentaire centre</string>
+    <string name="xt_right_button">Bouton supplémentaire droit</string>
+    <string name="xt_left_button_dt">Bouton supplémentaire gauche (double appui)</string>
+    <string name="xt_center_button_dt">Bouton supplémentaire centre (double appui)</string>
+    <string name="xt_right_button_dt">Bouton supplémentaire droit (double appui)</string>
+    <string name="xt_n_button">Bouton supplémentaire %s</string>
     <string name="button_actions">Actions</string>
     <string name="button_action">Action</string>
-    <string name="button_override">Override this button</string>
+    <string name="button_override">Remplacer ce bouton</string>
     <string name="button_type">Type</string>
-    <string name="button_keycode">Keycode</string>
-    <string name="button_icon">Icon</string>
-    <string name="unchanged">Unchanged</string>
+    <string name="button_keycode">Code clé</string>
+    <string name="button_icon">Icône</string>
+    <string name="unchanged">Inchangé</string>
     <!-- / Button config -->
 
     <!-- App selector -->
-    <string name="select_apps">Select app</string>
-    <string name="action_search">Search</string>
-    <string name="no_result">No result</string>
+    <string name="select_apps">Sélectionner une application</string>
+    <string name="action_search">Chercher</string>
+    <string name="no_result">Aucun résultat</string>
     <!-- / App selector -->
 
     <!-- Profiles -->
-    <string name="profiles">Profiles</string>
+    <string name="profiles">Profils</string>
     <string name="profiles_summary">Create profiles that can be enabled or disabled</string>
     <string name="no_profiles">No profiles</string>
     <string name="automation">Automation</string>
