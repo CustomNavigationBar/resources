@@ -182,47 +182,47 @@
     <string name="buy">Acheter</string>
     <string name="buy_pro">Acheter la version pro</string>
     <string name="buy_pro_summary">Encouragez le développement et supprimez les publicités</string>
-    <string name="thanks">Merci d\'avoir encouragé le développement</string>
+    <string name="thanks">Merci pour vos encouragements</string>
 
-    <string name="welcome">Welcome to %s. This intro will help you get started.</string>
-    <string name="copy">Copy command</string>
-    <string name="get_started">Get started</string>
-    <string name="safety_first">Safety first</string>
+    <string name="welcome">Bienvenue dans %s. Cette introduction vous aidera à démarrer.</string>
+    <string name="copy">Copiez la commande</string>
+    <string name="get_started">Commencer</string>
+    <string name="safety_first">La sécurité d\'abord</string>
     <string name="safety_desc"><![CDATA[
-        To ensure that this application will work on your device, you need to run a compatibility test to continue.
-        <br><br>Tap <b>start</b> to run the test.
+        Pour vous assurer que cette application fonctionnera sur votre appareil, vous devez exécuter un test de compatibilité avant de continuer.
+        <br><br>Appuyez sur <b>Commencer</b> pour démarrer le test.
     ]]></string>
-    <string name="cancel">Cancel</string>
+    <string name="cancel">Annuler</string>
     <string name="test_desc"><![CDATA[
-        Tap the <b>next button on your navbar</b> to continue.
-        <br><br>If you don\'t see anything, it means your device is not compatible with this app.
+        Appuyez sur le <b>bouton \"Suivant\" de votre barre de navigation</b> pour continuer.
+        <br><br>Si vous ne voyez rien, cCela signifie que votre appareil n\'est pas compatible avec cette application.
     ]]></string>
-    <string name="compatibility_test">Compatibility test</string>
-    <string name="finish">Finish</string>
-    <string name="all_done">All done</string>
-    <string name="all_done_desc">Setup is complete. You can start using this application.</string>
-    <string name="exit">Exit</string>
-    <string name="contact">Contact the developer</string>
-    <string name="no_email_app">No email app</string>
-    <string name="no_root">Please grant the permission from your PC using ADB.</string>
-    <string name="not_compatible">This application is not compatible with this Android version. All functions will be disabled to prevent crashes.</string>
-    <string name="might_not_be_compatible">This application might not work on your Android system.</string>
-    <string name="experimental">Experimental tweaks</string>
-    <string name="experimental_warning">These settings allow you to replace the existing back, home and recent keys. They might not work as expected.</string>
-    <string name="dark_theme">Dark theme</string>
-    <string name="reset_navbar">Reset</string>
-    <string name="reset_navbar_summary">Reset navbar to system default</string>
-    <string name="author">Author</string>
-    <string name="other_apps_summary">Check out other apps from me</string>
-    <string name="share_text" formatted="false">Check out \"%s\"\nhttps://play.google.com/store/apps/details?id=%s</string>
-    <string name="share_with">Share \"%s\" with</string>
-    <string name="support_development">Support development</string>
-    <string name="report_bugs">Report bugs</string>
-    <string name="repoer_bugs_summary">Report bugs or request new features</string>
-    <string name="translate">Translate</string>
-    <string name="translate_summary">Translate the app to your language</string>
-    <string name="send_email">Send email</string>
-    <string name="licenses">Open source licenses</string>
+    <string name="compatibility_test">Test de compatibilité</string>
+    <string name="finish">Terminer</string>
+    <string name="all_done">Terminé</string>
+    <string name="all_done_desc">L\'installation est terminée. Vous pouvez commencer à utiliser cette application.</string>
+    <string name="exit">Sortir</string>
+    <string name="contact">Contactez le développeur</string>
+    <string name="no_email_app">Aucune application de courriel</string>
+    <string name="no_root">Veuillez accorder l\'autorisation depuis votre ordinateur en utilisant ADB.</string>
+    <string name="not_compatible">Cette application n\'est pas compatible avec cette version d\"Android. Toutes les fonctions seront désactivées pour éviter tout plantage.</string>
+    <string name="might_not_be_compatible">Cette application peut ne pas fonctionner sur votre système Android.</string>
+    <string name="experimental">Réglages expérimentaux</string>
+    <string name="experimental_warning">Ces paramètres vous permettent de remplacer les clés \"Retour\", \"Accueil\" et \"Application récentes\" actuelles. Elles pourraient ne pas fonctionner comme désiré.</string>
+    <string name="dark_theme">Thème sombre</string>
+    <string name="reset_navbar">Réinitialiser</string>
+    <string name="reset_navbar_summary">Rétablir la barre de navigation à son état d\'originne</string>
+    <string name="author">Auteur</string>
+    <string name="other_apps_summary">Découvrez mes autres applications</string>
+    <string name="share_text" formatted="false">Jettez un œil à \"%s\"\nhttps://play.google.com/store/apps/details?id=%s</string>
+    <string name="share_with">Partager \"%s\" avec</string>
+    <string name="support_development">Encourager le développement</string>
+    <string name="report_bugs">Signaler des bogues</string>
+    <string name="repoer_bugs_summary">Signalez des bogues ou demandez de nouvelles fonctionnalités</string>
+    <string name="translate">Traduire</string>
+    <string name="translate_summary">Traduisez l\'application dans votre langue</string>
+    <string name="send_email">Envoyer un courriel</string>
+    <string name="licenses">Licenses Open source</string>
     <!-- / App info -->
 
 </resources>
