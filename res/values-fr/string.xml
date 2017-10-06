@@ -44,7 +44,7 @@
     <string name="long_press">Appui prolongé</string>
     <string name="double_tap_delay">Délai</string>
     <string name="double_tap_incompatible">Incompatible avec ce type de bouton</string>
-    <string name="dt_limitation">Les options de double appui ne sont pas disponibles avec la version gratuite.\nAcheter la version Pro pour soutenir le développement et débloquer cette option ?</string>
+    <string name="dt_limitation">Les options de double appui ne sont pas disponibles dans la version gratuite.\nAcheter la version Pro pour soutenir le développement et débloquer cette option ?</string>
     <!-- / Button types -->
 
     <!-- Button config -->
@@ -72,66 +72,66 @@
 
     <!-- Profiles -->
     <string name="profiles">Profils</string>
-    <string name="profiles_summary">Create profiles that can be enabled or disabled</string>
-    <string name="no_profiles">No profiles</string>
-    <string name="automation">Automation</string>
-    <string name="profile">Profile</string>
-    <string name="profile_enabled">Enabled</string>
-    <string name="profile_name">Name</string>
-    <string name="profile_name_summary">Change the profile name</string>
-    <string name="delete">Delete</string>
-    <string name="profiles_limitation">Free version is limited to maximum 2 profiles.\nBuy pro version to support the development and unlock the limit?</string>
-    <string name="profile_show_in_app_shortcuts">Show in app shortcuts</string>
-    <string name="profile_app_shortcut_toggle">Toggle \"%s\"</string>
-    <string name="disable_all_profiles">Disable all profiles</string>
-    <string name="all_profiles_disabled">Disabled all profiles</string>
-    <string name="app_shortcuts_max_limit">You have reached maximum limit for app shortcuts</string>
+    <string name="profiles_summary">Créer des profils pouvant être activés ou désactivés</string>
+    <string name="no_profiles">Aucun profil</string>
+    <string name="automation">Automatisation</string>
+    <string name="profile">Profil</string>
+    <string name="profile_enabled">Activé</string>
+    <string name="profile_name">Nom</string>
+    <string name="profile_name_summary">Définir le nom du profil</string>
+    <string name="delete">Supprimer</string>
+    <string name="profiles_limitation">La version gratuite est limitée à 2 profils maximum.\nAcheter la version Pro pour soutenir le développement et débloquer cette option ?</string>
+    <string name="profile_show_in_app_shortcuts">Afficher les raccourcis de l\'application</string>
+    <string name="profile_app_shortcut_toggle">Permuter vers \"%s\"</string>
+    <string name="disable_all_profiles">Désactiver tous les profils</string>
+    <string name="all_profiles_disabled">Tous les profils sont désactivés</string>
+    <string name="app_shortcuts_max_limit">Vous avez atteint la limite maximale du nombre de raccourcis d\'application</string>
     <!-- / Profiles -->
 
     <!-- Custom layout -->
-    <string name="preview">Preview</string>
-    <string name="start">Start</string>
-    <string name="center">Center</string>
-    <string name="end">End</string>
-    <string name="select_button">Select button to add</string>
-    <string name="add_button">Add button</string>
-    <string name="save">Save</string>
-    <string name="reset">Reset</string>
+    <string name="preview">Aperçu</string>
+    <string name="start">Début</string>
+    <string name="center">Centre</string>
+    <string name="end">Fin</string>
+    <string name="select_button">Sélectionnez le bouton à ajouter</string>
+    <string name="add_button">Ajouter un bouton</string>
+    <string name="save">Enregistrer</string>
+    <string name="reset">Réinitialiser</string>
 
-    <string name="no_home_title">No home button found</string>
-    <string name="no_home_message">A home button is required to be able to navigate this device. Please add a home button before saving.</string>
+    <string name="no_home_title">Aucun bouton \"Accueil\" détecté</string>
+    <string name="no_home_message">Un bouton \"Accueil\" est nécessaire pour pouvoir naviguer sur cet appareil. Veuiller ajouter un bouton \"Accueil\" avant d\'enregistrer.</string>
 
-    <string name="adjust_button_width">Adjust button width</string>
+    <string name="adjust_button_width">Régler la largeur du bouton</string>
 
-    <string name="custom_layout_limitation">Custom layouts are not available in free version.\nBuy pro version to support the development and unlock custom layouts?</string>
-    <string name="custom_layout_samsung_warning">These options might crash on Samsung devices. Be careful when using them.</string>
-    <string name="rename">Rename</string>
+    <string name="custom_layout_limitation">Les réglages personnalisés des dispositions ne sont pas disponibles dans la version gratuite.\nAcheter la version Pro pour soutenir le développement et débloquer cette option ?</string>
+    <string name="custom_layout_samsung_warning">Ces options pourraient planter sur les appareils Samsung. Soyez prudent lorsque vous les utiliser.</string>
+    <string name="rename">Renommer</string>
     <string name="smartbar">Smartbar</string>
     <!-- / Custom layout -->
 
     <!-- Themes -->
-    <string name="theme">Theme</string>
-    <string name="theme_default">Default</string>
+    <string name="theme">Thème</string>
+    <string name="theme_default">Original</string>
     <string name="theme_pixel">Pixel</string>
     <string name="theme_s8">S8</string>
-    <string name="theme_filled">Filled</string>
+    <string name="theme_filled">Rempli</string>
     <string name="theme_invisible">Invisible</string>
     <string name="theme_holo">Holo</string>
     <string name="theme_material">Material</string>
-    <string name="invalid_theme">Invalid theme</string>
-    <string name="theme_limitation">Themes are not available in free version.\nBuy pro version to support the development and unlock themes?</string>
-    <string name="wip_feature">This feature is currently in development. It will improve over time.</string>
-    <string name="themes_warning">Themed buttons will lose their long-press function. This is an Android limitation and cannot be fixed.</string>
-    <string name="theme_incompatibility">Incompatibility</string>
-    <string name="theme_disable_screen_pinning">Themes are not compatible with screen pinning. Disable screen pinning?</string>
+    <string name="invalid_theme">Thème invalide</string>
+    <string name="theme_limitation">Les thèmes ne sont pas disponibles dans la version gratuite.\nAcheter la version Pro pour soutenir le développement et débloquer cette option ?</string>
+    <string name="wip_feature">Cette fonctionnalité est en cours de développement. Elle s\'améliorera avec le temps.</string>
+    <string name="themes_warning">Les boutons utilisant un thème perdent leur option par appui prolongé. C\'est une limitation d\'Android qui ne peut pas être corrigée.</string>
+    <string name="theme_incompatibility">Incompatibilité</string>
+    <string name="theme_disable_screen_pinning">Les thèmes ne sont pas compatibles avec l\'épinglage de l'écran. Désactiver l\'épinglage de l\'écran ?</string>
     <!-- / Themes -->
 
     <!-- Tasker plugin UI -->
     <string name="twofortyfouram_locale_breadcrumb_format">%1$s%2$s%3$s</string>
     <string name="twofortyfouram_locale_breadcrumb_separator">\u0020&gt;\u0020</string>
-    <string name="twofortyfouram_locale_menu_dontsave">Cancel</string>
-    <string name="twofortyfouram_locale_menu_help">Help</string>
-    <string name="twofortyfouram_locale_menu_save">Done</string>
+    <string name="twofortyfouram_locale_menu_dontsave">Annuler</string>
+    <string name="twofortyfouram_locale_menu_help">Aide</string>
+    <string name="twofortyfouram_locale_menu_save">OK</string>
 
     <string name="tasker_configuration">Configuration</string>
     <string name="tasker_select_action">Action</string>
