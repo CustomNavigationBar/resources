@@ -1,0 +1,228 @@
+<resources xmlns:tools="http://schemas.android.com/tools" tools:ignore="MissingTranslation">
+    <string name="app_name">Aangepaste Navigatiebalk</string>
+
+    <!-- Navbar config -->
+    <string name="nav_bar">Navigatiebalk</string>
+    <string name="nav_bar_summary">Wijzig hoe uw navigatiebalk eruit moet zien</string>
+
+    <string name="nav_bar_layout">Lay-out</string>
+    <string name="nav_bar_layout_normal">Normaal</string>
+    <string name="nav_bar_layout_left">Links-leunend</string>
+    <string name="nav_bar_layout_right">Rechts-leunend</string>
+    <string name="nav_bar_layout_center">Centraal</string>
+    <string name="nav_bar_layout_compact">Compact</string>
+    <string name="nav_bar_layout_tablet">Tablet</string>
+
+    <string name="nav_bar_inverted">Geïnverteerd</string>
+    <string name="nav_bar_inverted_summary">Verwissel terug en recent knop</string>
+
+    <string name="nav_bar_normalize_button_size">Normaliseer knopgrootte</string>
+    <string name="nav_bar_normalize_button_size_summary">Maak alle knoppen dezelfde grootte</string>
+
+    <string name="immersive">Schermvullende modus</string>
+    <string name="change_immersive_settings">Wijzig schermvullende instellingen</string>
+    <string name="hide_status">Verberg statusbalk</string>
+    <string name="hide_nav">Verberg navigatiebalk</string>
+    <!-- / Navbar config -->
+
+    <!-- Button types -->
+    <string name="accessibility_home">Thuis</string>
+    <string name="accessibility_back">Terug</string>
+    <string name="accessibility_recent">Recente apps</string>
+    <string name="keycode">Sleutelcode</string>
+    <string name="clipboard">Klembord</string>
+    <string name="space">Leeg</string>
+    <string name="spacer">Afscheiding</string>
+    <string name="menu_ime">Toetsenbordverwisselaar</string>
+    <string name="notifications">Notificaties</string>
+    <string name="media_volume">Media volume dialoog</string>
+    <string name="tasker_event">Tasker gebeurtenis</string>
+    <string name="toggle_profile">Schakel profiel</string>
+    <string name="launch_app">App starten</string>
+    <string name="single_tap">Enkele tik</string>
+    <string name="double_tap">Dubbele tik</string>
+    <string name="long_press">Lang duwen</string>
+    <string name="double_tap_delay">Vertraging</string>
+    <string name="double_tap_incompatible">Niet compatibel met dit knoptype</string>
+    <string name="dt_limitation">Dubbel tikken is niet beschikbaar in de gratis versie.\nPro versie kopen om ontwikkeling te ondersteunen en dubbel tikken in te schakelen?</string>
+    <!-- / Button types -->
+
+    <!-- Button config -->
+    <string name="xt_left_button">Extra linkse knop</string>
+    <string name="xt_center_button">Extra centrale knop</string>
+    <string name="xt_right_button">Extra rechtse knop</string>
+    <string name="xt_left_button_dt">Extra linkse knop (dubbel tikken)</string>
+    <string name="xt_center_button_dt">Extra centrale knop (dubbel tikken)</string>
+    <string name="xt_right_button_dt">Extra rechtse knop (dubbel tikken)</string>
+    <string name="xt_n_button">Extra knop %s</string>
+    <string name="button_actions">Acties</string>
+    <string name="button_action">Actie</string>
+    <string name="button_override">Vervang deze knop</string>
+    <string name="button_type">Type</string>
+    <string name="button_keycode">Sleutelcode</string>
+    <string name="button_icon">Icoon</string>
+    <string name="unchanged">Ongewijzigd</string>
+    <!-- / Button config -->
+
+    <!-- App selector -->
+    <string name="select_apps">App selecteren</string>
+    <string name="action_search">Zoeken</string>
+    <string name="no_result">Geen resultaat</string>
+    <!-- / App selector -->
+
+    <!-- Profiles -->
+    <string name="profiles">Profielen</string>
+    <string name="profiles_summary">Profielen creëren die in- of uitgeschakeld kunnen worden</string>
+    <string name="no_profiles">Geen profielen</string>
+    <string name="automation">Automatisering</string>
+    <string name="profile">Profiel</string>
+    <string name="profile_enabled">Ingeschakeld</string>
+    <string name="profile_name">Naam</string>
+    <string name="profile_name_summary">Wijzig de profielnaam</string>
+    <string name="delete">Verwijder</string>
+	<string name="profiles_limitation">Gratis versie is gelimiteerd tot max. 2 profielen.\nPro versie kopen om ontwikkeling te ondersteunen en limiet op te heffen?</string>
+    <string name="profile_show_in_app_shortcuts">Toon snelkoppelingen in app</string>
+    <string name="profile_app_shortcut_toggle">Schakel \"%s\" in/uit</string>
+    <string name="disable_all_profiles">Schakel alle profielen uit</string>
+    <string name="all_profiles_disabled">Alle profielen uitgeschakeld</string>
+    <string name="app_shortcuts_max_limit">Je hebt het max. limiet voor app snelkoppelingen bereikt</string>
+    <!-- / Profiles -->
+
+    <!-- Custom layout -->
+    <string name="preview">Voorvertoning</string>
+    <string name="start">Start</string>
+    <string name="center">Centraal</string>
+    <string name="end">Einde</string>
+    <string name="select_button">Selecteer knop om toe te voegen</string>
+    <string name="add_button">Knop toevoegen</string>
+    <string name="save">Opslaan</string>
+    <string name="reset">Reset</string>
+
+    <string name="no_home_title">Geen thuisknop gevonden</string>
+    <string name="no_home_message">Een thuisknop is vereist om met dit toestel te kunnen navigeren. Gelieve een thuisknop toe te voegen alvorens op te slaan.</string>
+
+    <string name="adjust_button_width">Wijzig knopbreedte</string>
+
+    <string name="custom_layout_limitation">Aangepaste lay-out is niet beschikbaar in gratis versie.\nPro versie kopen om ontwikkeling te ondersteunen en aangepaste lay-out in te schakelen?</string>
+    <string name="custom_layout_samsung_warning">Deze opties kunnen crashen op Samsung toestellen. Gebruik ze bedachtzaam.</string>
+    <string name="rename">Hernoemen</string>
+    <string name="smartbar">Smartbar</string>
+    <!-- / Custom layout -->
+
+    <!-- Themes -->
+    <string name="theme">Thema</string>
+    <string name="theme_default">Standaard</string>
+    <string name="theme_pixel">Pixel</string>
+    <string name="theme_s8">S8</string>
+    <string name="theme_filled">Gevuld</string>
+    <string name="theme_invisible">Onzichtbaar</string>
+    <string name="theme_holo">Holo</string>
+    <string name="theme_material">Material</string>
+    <string name="invalid_theme">Ongeldig thema</string>
+    <string name="theme_limitation">Thema\'s zijn niet beschikbaar in gratis versie.\nPro versie kopen om ontwikkeling te ondersteunen en thema\'s in te schakelen?</string>
+    <string name="wip_feature">Deze functie is in ontwikkeling. Het gaat mettertijd verbeteren.</string>
+    <string name="themes_warning">Knoppen in thema gaan lang-duwen functie verliezen. Dit is een Android limitering en kan niet worden opgelost.</string>
+    <string name="theme_incompatibility">Incompatibiliteit</string>
+    <string name="theme_disable_screen_pinning">Thema\'s zijn niet compatibel met schermpinnen. Deactiveer schermpinnen?</string>
+    <!-- / Themes -->
+
+    <!-- Tasker plugin UI -->
+    <string name="twofortyfouram_locale_breadcrumb_format">%1$s%2$s%3$s</string>
+    <string name="twofortyfouram_locale_breadcrumb_separator">\u0020&gt;\u0020</string>
+    <string name="twofortyfouram_locale_menu_dontsave">Annuleer</string>
+    <string name="twofortyfouram_locale_menu_help">Help</string>
+    <string name="twofortyfouram_locale_menu_save">Klaar</string>
+
+    <string name="tasker_configuration">Configuratie</string>
+    <string name="tasker_select_action">Actie</string>
+    <string name="tasker_select_profile">Selecteer profiel</string>
+    <string name="tasker_select_button">Selecteer knop</string>
+    <string name="none">Geen</string>
+    <string name="tasker">Tasker</string>
+    <string name="tasker_summary">Dynamisch in-/uitschakelen profielen</string>
+    <string name="tasker_profile_empty">Selecteer een profiel a.u.b.</string>
+    <string name="tasker_no_profiles">Creëer een profiel a.u.b.</string>
+
+    <string name="tasker_enable_profile">Schakel profiel in</string>
+    <string name="tasker_disable_profile">Schakel profiel uit</string>
+    <string name="tasker_in_profile">in profiel %s</string>
+    <string name="tasker_pro_limitation">Tasker gebeurtenissen zijn niet beschikbaar in gratis versie.\nPro versie kopen om ontwikkeling te ondersteunen en Tasker gebeurtenissen in te schakelen?</string>
+    <string name="tasker_events_wip">Deze functie is in ontwikkeling. Het gaat mettertijd verbeteren.</string>
+    <!-- / Tasker plugin UI -->
+
+    <!-- App info -->
+    <string name="settings">Instellingen</string>
+    <string name="information">Over</string>
+    <string name="share">Delen</string>
+    <string name="other_apps">Meer apps</string>
+    <string name="version">Versie</string>
+    <string name="grant_perm">Toestemming geven</string>
+    <string name="perm_not_granted_desc"><![CDATA[
+        Deze app heeft <i>WRITE_SECURE_SETTINGS</i> toestemming nodig om wijzigingen te kunnen aanbrengen. Je kan deze authorizeren met gebruik van root of met een PC.
+        <br><br><b>Met een PC</b>
+        <br><b>1 </b>Installeer ADB op uw PC
+        <br><b>2 </b>Verbind uw toestel met USB-foutopsporing ingeschakeld
+        <br><b>3 </b>Open een opdrachtprompt
+        <br><b>4 </b>Typ \'adb shell\' om in adb shell te treden
+        <br><b>5 </b>Typ de volgende opdracht om toestemming te authorizeren
+        <br><br>pm grant %1$s android.permission.WRITE_SECURE_SETTINGS
+        <br><br><b>Met root</b>
+        <br>Duw volgende en sta superuser toegang toe om automatisch de authorizatie toe te staan of volg onderstaande stappen.
+        <br><b>1 </b>Open Terminal Emulator
+        <br><b>2 </b>Typ \'su\' om in superuser modus te treden
+        <br><b>3 </b>Typ de volgende opdracht om toestemming te authorizeren
+        <br><br>pm grant %1$s android.permission.WRITE_SECURE_SETTINGS
+        <br><br><b>Klik onderstaande knop om de opdracht te kopiëren.</b>
+    ]]></string>
+    <string name="retry_title">Probeer opnieuw</string>
+    <string name="retry_desc">Herstart de test</string>
+    <string name="copied">Gekopieerd</string>
+    <string name="help_needed">De compatibiliteitstest is gefaald. Wat wenst u te doen?</string>
+
+    <string name="buy">Koop</string>
+    <string name="buy_pro">Koop pro versie</string>
+    <string name="buy_pro_summary">Ondersteun ontwikkeling en verwijder reclame</string>
+    <string name="thanks">Bedankt om de ontwikkeling te steunen.</string>
+
+    <string name="welcome">Welkom bij %s. Deze intro zal u op weg helpen.</string>
+    <string name="copy">Kopieer opdracht</string>
+    <string name="get_started">Begin eraan</string>
+    <string name="safety_first">Veiligheid eerst</string>
+    <string name="safety_desc"><![CDATA[
+        Om zeker te zijn dat deze applicatie zal werken op uw toestel moet er een compatibiliteitstest gebeuren om door te gaan.
+        <br><br>Tik <b>start</b> om de test te beginnen.
+    ]]></string>
+    <string name="cancel">Annuleer</string>
+    <string name="test_desc"><![CDATA[
+        Tik op de <b>pijltjesknop op uw navigatiebalk</b> om verder te gaan.
+        <br><br>Als je deze niet ziet dan betekent dit dat uw toestel niet compatibel is met deze app.
+    ]]></string>
+    <string name="compatibility_test">Compatibiliteitstest</string>
+    <string name="finish">Einde</string>
+    <string name="all_done">Helemaal klaar</string>
+    <string name="all_done_desc">Setup is klaar. U kan nu gebruik maken van deze applicatie.</string>
+    <string name="exit">Sluit af</string>
+    <string name="contact">Contacteer de ontwikkelaar</string>
+    <string name="no_email_app">Geen e-mail app</string>
+    <string name="no_root">Gelieve de authorizatie vanaf uw PC via ADB toe te staan.</string>
+    <string name="not_compatible">Deze applicatie is niet compatibel met uw Android versie. Alle functies zullen uitgeschakeld zijn om crashen te voorkomen.</string>
+    <string name="might_not_be_compatible">Deze applicatie werkt mogelijks niet op uw Android systeem.</string>
+    <string name="experimental">Experimentele aanpassingen</string>
+    <string name="experimental_warning">Deze instellingen staan u toe de bestaande terug, thuis en recent knoppen te vervangen. Ze werken mogelijks niet als verwacht.</string>
+    <string name="dark_theme">Donker thema</string>
+    <string name="reset_navbar">Reset</string>
+    <string name="reset_navbar_summary">Reset navigatiebalk naar systeemstandaard</string>
+    <string name="author">Auteur</string>
+    <string name="other_apps_summary">Probeer deze apps van mij</string>
+    <string name="share_text" formatted="false">Probeer \"%s\"\nhttps://play.google.com/store/apps/details?id=%s</string>
+    <string name="share_with">Deel \"%s\" met</string>
+    <string name="support_development">Ondersteun ontwikkeling</string>
+    <string name="report_bugs">Rapporteer bugs</string>
+    <string name="repoer_bugs_summary">Rapporteer bugs of vraag nieuwe functies aan</string>
+    <string name="translate">Vertaal</string>
+    <string name="translate_summary">Vertaal de app naar uw taal</string>
+    <string name="send_email">Stuur e-mail</string>
+    <string name="licenses">Open-bronlicenties</string>
+    <!-- / App info -->
+
+</resources>
