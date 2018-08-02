@@ -1,0 +1,228 @@
+<resources xmlns:tools="http://schemas.android.com/tools" tools:ignore="MissingTranslation">
+    <string name="app_name">Custom Navigation Bar</string>
+
+    <!-- Navbar config -->
+    <string name="nav_bar">Navigation bar</string>
+    <string name="nav_bar_summary">Cambiar la forma en la barra de navegación debe verse</string>
+
+    <string name="nav_bar_layout">Diseño</string>
+    <string name="nav_bar_layout_normal">Normal</string>
+    <string name="nav_bar_layout_left">Tendencia Izquierda</string>
+    <string name="nav_bar_layout_right">Tendencia Derecha</string>
+    <string name="nav_bar_layout_center">Centro</string>
+    <string name="nav_bar_layout_compact">Compacta</string>
+    <string name="nav_bar_layout_tablet">Tableta</string>
+
+    <string name="nav_bar_inverted">Invertida</string>
+    <string name="nav_bar_inverted_summary">Intercambiar botones atrás y reciente</string>
+
+    <string name="nav_bar_normalize_button_size">Normalizar tamaño botones</string>
+    <string name="nav_bar_normalize_button_size_summary">Hacer todos los botones del mismo tamaño</string>
+
+    <string name="immersive">Modo Inmersivo</string>
+    <string name="change_immersive_settings">Cambiar configuraciones del modo inversivo</string>
+    <string name="hide_status">Ocultar Barra de estado</string>
+    <string name="hide_nav">Ocultar barra de navegación</string>
+    <!-- / Navbar config -->
+
+    <!-- Button types -->
+    <string name="accessibility_home">Inicio</string>
+    <string name="accessibility_back">Atrás</string>
+    <string name="accessibility_recent">Recientes</string>
+    <string name="keycode">Tecla</string>
+    <string name="clipboard">Portapapeles</string>
+    <string name="space">Ninguno</string>
+    <string name="spacer">Spaciador</string>
+    <string name="menu_ime">Camabiar tipo de teclado</string>
+    <string name="notifications">Notificaciones</string>
+    <string name="media_volume">Volumen Medios</string>
+    <string name="tasker_event">Evento de «Tasker»</string>
+    <string name="toggle_profile">Alternar perfil</string>
+    <string name="launch_app">Lanzar Aplicativo</string>
+    <string name="single_tap">Pulsación Simple</string>
+    <string name="double_tap">Pulsación Doble</string>
+    <string name="long_press">Pulsación Larga</string>
+    <string name="double_tap_delay">Retraso</string>
+    <string name="double_tap_incompatible">No es compatible con este tipo de botón</string>
+    <string name="dt_limitation">Pulsación soble no está disponible en la versión gratuita.\n¿comprarías la versión paga para ayudar al desarrollo del producto y desbloquear las características avanzadas?</string>
+    <!-- / Button types -->
+
+    <!-- Button config -->
+    <string name="xt_left_button">Botón adicional izquierdo</string>
+    <string name="xt_center_button">Botón adicional al medio</string>
+    <string name="xt_right_button">Botón adicional derecho</string>
+    <string name="xt_left_button_dt">Botón adiciconal izquierdo (al hacer doble pulsación)</string>
+    <string name="xt_center_button_dt">Botón adicional al medio (al hacer doble pulsación)</string>
+    <string name="xt_right_button_dt">Botón adicional derecho (al hacer doble pulsación)</string>
+    <string name="xt_n_button">Botón Adicional %s</string>
+    <string name="button_actions">Acciones</string>
+    <string name="button_action">Acción</string>
+    <string name="button_override">Reemplazar este botón</string>
+    <string name="button_type">Tipo</string>
+    <string name="button_keycode">Tecla</string>
+    <string name="button_icon">Ícono</string>
+    <string name="unchanged">Sin Cambio</string>
+    <!-- / Button config -->
+
+    <!-- App selector -->
+    <string name="select_apps">Seleccionar Aplicativo</string>
+    <string name="action_search">Buscar</string>
+    <string name="no_result">Sin Resultados</string>
+    <!-- / App selector -->
+
+    <!-- Profiles -->
+    <string name="profiles">Perfiles</string>
+    <string name="profiles_summary">Crear perfiles que pueden ser habilitados o deshabilitados</string>
+    <string name="no_profiles">Sin perfiles</string>
+    <string name="automation">Automatización</string>
+    <string name="profile">Perfil</string>
+    <string name="profile_enabled">Habilitado</string>
+    <string name="profile_name">Nombre</string>
+    <string name="profile_name_summary">Renombrar perfil</string>
+    <string name="delete">Borrar</string>
+    <string name="profiles_limitation">La versión gratuita, está limitada a un máximo de 2 perfiles.\n¿comprarías la versión paga para ayudar al desarrollo del producto y desbloquear las características avanzadas?</string>
+    <string name="profile_show_in_app_shortcuts">Mostar en enlaces de Aplicativos</string>
+    <string name="profile_app_shortcut_toggle">Alternar \"%s\"</string>
+    <string name="disable_all_profiles">Deshabilitar todos los perfiles</string>
+    <string name="all_profiles_disabled">Todos los perfiles deshabilitados</string>
+    <string name="app_shortcuts_max_limit">Has alcanzado el límite máximo de enlaces de aplicativos</string>
+    <!-- / Profiles -->
+
+    <!-- Custom layout -->
+    <string name="preview">Previsualización</string>
+    <string name="start">Inicio</string>
+    <string name="center">Centro</string>
+    <string name="end">Fin</string>
+    <string name="select_button">Seleccione botón para adicionar</string>
+    <string name="add_button">Adicionar botón</string>
+    <string name="save">Guardar</string>
+    <string name="reset">Restablecer</string>
+
+    <string name="no_home_title">No se encontró botón de inicio</string>
+    <string name="no_home_message">Por lo menos un botón de inicio se requiere para poder navegar en el dispositivo. Por favor adicione uno antes de guardar.</string>
+
+    <string name="adjust_button_width">Ajustar ancho del botón</string>
+
+    <string name="custom_layout_limitation">Las distribuciones personalizadas no están disponibles en la versión grauita.\n¿comprarías la versión paga para ayudar al desarrollo del producto y desbloquear las características avanzadas?</string>
+    <string name="custom_layout_samsung_warning">Advertencia, estas opciones pueden bloquear dispositivos Samsung (R), úselas con cuidado.</string>
+    <string name="rename">Renombrar</string>
+    <string name="smartbar">Smartbar</string>
+    <!-- / Custom layout -->
+
+    <!-- Themes -->
+    <string name="theme">Temas</string>
+    <string name="theme_default">Por Defecto</string>
+    <string name="theme_pixel">Pixel</string>
+    <string name="theme_s8">S8</string>
+    <string name="theme_filled">Lleno</string>
+    <string name="theme_invisible">Invisible</string>
+    <string name="theme_holo">Holo</string>
+    <string name="theme_material">Material</string>
+    <string name="invalid_theme">Tema inválido</string>
+    <string name="theme_limitation">Los temas no están disponibles en la versión gratuita.\n¿comprarías la versión paga para ayudar al desarrollo del producto y desbloquear las características avanzadas?</string>
+    <string name="wip_feature">Ésta característica se encuentra actualmente en desarrollo. Será implementada eventualmente.</string>
+    <string name="themes_warning">Los botones con un tema perderán la función de pulsación Larga. Es una limitación de Android.</string>
+    <string name="theme_incompatibility">Incompatibilidad</string>
+    <string name="theme_disable_screen_pinning">Los temas no son compatibles con «Fijar Pantalla». ¿Deshabilitar la función «Fijar Pantalla»?</string>
+    <!-- / Themes -->
+
+    <!-- Tasker plugin UI -->
+    <string name="twofortyfouram_locale_breadcrumb_format">%1$s%2$s%3$s</string>
+    <string name="twofortyfouram_locale_breadcrumb_separator">\u0020&gt;\u0020</string>
+    <string name="twofortyfouram_locale_menu_dontsave">Cancelar</string>
+    <string name="twofortyfouram_locale_menu_help">Ayuda</string>
+    <string name="twofortyfouram_locale_menu_save">Guardar</string>
+
+    <string name="tasker_configuration">Configuración</string>
+    <string name="tasker_select_action">Acción</string>
+    <string name="tasker_select_profile">Seleccionar Perfil</string>
+    <string name="tasker_select_button">Seleccionar Botón</string>
+    <string name="none">Ninguno</string>
+    <string name="tasker">Tasker</string>
+    <string name="tasker_summary">Habilitar/Deshabilitar perfiles dinámicamente</string>
+    <string name="tasker_profile_empty">Por favor seleccione un perfil</string>
+    <string name="tasker_no_profiles">Por favor cree un perfil</string>
+
+    <string name="tasker_enable_profile">Habilitar perfil</string>
+    <string name="tasker_disable_profile">Deshabilitar perfil</string>
+    <string name="tasker_in_profile">En el perfil %s</string>
+    <string name="tasker_pro_limitation">los eventos de «Tasker» no están disponibles en la versión gratuita.\n¿comprarías la versión paga para ayudar al desarrollo del producto y desbloquear las características avanzadas?</string>
+    <string name="tasker_events_wip">Ésta característica se encuentra actualmente en desarrollo. Será implementada eventualmente.</string>
+    <!-- / Tasker plugin UI -->
+
+    <!-- App info -->
+    <string name="settings">Configuraciones</string>
+    <string name="information">Acerca de</string>
+    <string name="share">Comparti</string>
+    <string name="other_apps">Otras Aplicaciones</string>
+    <string name="version">Versión</string>
+    <string name="grant_perm">Asignar permisos</string>
+    <string name="perm_not_granted_desc"><![CDATA[
+        Este aplicativo requiere el permiso <i>WRITE_SECURE_SETTINGS</i> con el fin de poder realizar cambio en el sistema. Dichos permisos se pueden asignar mediante elevación de privilegios ROOT o utilizando un PC.
+        <br><br><b>Si tienes un PC</b>
+        <br><b>1 </b>Instale ADB en el PC
+        <br><b>2 </b>Conecte el dispositivo con la opcion «depuración USB» (USB Debugging) habilitada
+        <br><b>3 </b>En una línea de comandos con privilegios elvados,
+        <br><b>4 </b>escriba el comando: \'adb shell\' para iniciar un shell ADB
+        <br><b>5 </b>Escriba el siguiente comando para asignar el permiso
+        <br><br>pm grant %1$s android.permission.WRITE_SECURE_SETTINGS
+        <br><br><b>Si su dispositivo tinee acceso «Root»</b>
+        <br>Presione el botón siguiente y permita el acceso superusuario para asignar el permiso automáticamente, o realice los siguientes pasos:
+        <br><b>1 </b>Ejecute un emulador de Terminal.
+        <br><b>2 </b>Ejecute el comando \'su\' para iniciar el modo superusuario
+        <br><b>3 </b>Escriba el siguiente comando para asignar el permiso
+        <br><br>pm grant %1$s android.permission.WRITE_SECURE_SETTINGS
+        <br><br><b>Presione el siguiente botón para copiar el comando.</b>
+    ]]></string>
+    <string name="retry_title">Reintentar</string>
+    <string name="retry_desc">Reiniciar la prueba</string>
+    <string name="copied">Copiado</string>
+    <string name="help_needed">Has fallado la prueba de compatibilidad. ¿Qué deseas que hagamos a continuación?</string>
+
+    <string name="buy">Comprar</string>
+    <string name="buy_pro">Comprar la Versión Pro</string>
+    <string name="buy_pro_summary">Soportando el desarrollo del producto y remueva la publicidad</string>
+    <string name="thanks">¡Gracias por su soporte al desarrollo del producto!</string>
+
+    <string name="welcome">Bienvenido a: %s. Esta introducción le ayudará a iniciar.</string>
+    <string name="copy">Copiar comando</string>
+    <string name="get_started">Iniciar</string>
+    <string name="safety_first">La seguridad ante todo</string>
+    <string name="safety_desc"><![CDATA[
+        Para asegurarnos que el aplicativo funcionará en tu dispositivo, se requiere que ejecutes una prueba de compatibilidad.
+        <br><br>Presione <b>inicio</b> para ejecutar la prueba.
+    ]]></string>
+    <string name="cancel">Cancelar</string>
+    <string name="test_desc"><![CDATA[
+        Presione <b>el botón siguiente en la barra de navegación</b> para continuar.
+        <br><br>Si no ve el botón, significa que su dispositivo no es compatible.
+    ]]></string>
+    <string name="compatibility_test">Prueba de Compatibildad</string>
+    <string name="finish">Terminar</string>
+    <string name="all_done">Todo listo</string>
+    <string name="all_done_desc">La configuración está lista.  Ahora puedes utilizar el aplicativo.</string>
+    <string name="exit">Salir</string>
+    <string name="contact">Contactar al desarrollador</string>
+    <string name="no_email_app">No se encuentra aplicativo de correo electrónico</string>
+    <string name="no_root">Por favor permita que su PC se conecte vía ADB.</string>
+    <string name="not_compatible">Este aplicativo no es compatible con esta versión de Android. Todas las funciones serán deshabilitadas para evitar fallos masivos</string>
+    <string name="might_not_be_compatible">Este aplicativo puede que no sea compatible con su sistema Android.</string>
+    <string name="experimental">Afinaciones Experimentales</string>
+    <string name="experimental_warning">Estas configuraciones le permitirán reemplazar los botones atrás, inicio, y recientes. puede que no funcionen como se espera.</string>
+    <string name="dark_theme">Tema obscuro</string>
+    <string name="reset_navbar">Restablecer</string>
+    <string name="reset_navbar_summary">Restablecer la barra de navegación a su configuración por defecto</string>
+    <string name="author">Autor:</string>
+    <string name="other_apps_summary">Otras de mis aplicaciones:</string>
+    <string name="share_text" formatted="false">Mira esto: \"%s\"\nhttps://play.google.com/store/apps/details?id=%s</string>
+    <string name="share_with">Compartir: \"%s\", con:</string>
+    <string name="support_development">Soporta el desarrollo</string>
+    <string name="report_bugs">Reporte de fallas</string>
+    <string name="repoer_bugs_summary">Reportar fallas o solicitar nuevas características</string>
+    <string name="translate">Traducir</string>
+    <string name="translate_summary">Traduce este aplciativo a tu idioma</string>
+    <string name="send_email">Enviar Correo eletrónico</string>
+    <string name="licenses">Licencias de Código abierto</string>
+    <!-- / App info -->
+
+</resources>
