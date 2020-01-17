@@ -1,0 +1,228 @@
+<resources xmlns:tools="http://schemas.android.com/tools" tools:ignore="MissingTranslation">
+    <string name="app_name">Custom Navigation Bar</string>
+
+    <!-- Navbar config -->
+    <string name="nav_bar">ნავიგაციის პანელი</string>
+    <string name="nav_bar_summary">დააკონფიგურეთ თქვენი სანავიგაციო პანელი</string>
+
+    <string name="nav_bar_layout">განლაგება</string>
+    <string name="nav_bar_layout_normal">ნორმალური</string>
+    <string name="nav_bar_layout_left">მემარცხენესათვის</string>
+    <string name="nav_bar_layout_right">მემარჯვენესათვის</string>
+    <string name="nav_bar_layout_center">ცენტრული</string>
+    <string name="nav_bar_layout_compact">კომპაქტური</string>
+    <string name="nav_bar_layout_tablet">პლანშეტური</string>
+
+    <string name="nav_bar_inverted">ინვერსირება</string>
+    <string name="nav_bar_inverted_summary">"უკან" და "მიმოხილვის" ღილაკების გადანაცვლება </string>
+
+    <string name="nav_bar_normalize_button_size">ღილაკების ზომის ნორმალიზირება</string>
+    <string name="nav_bar_normalize_button_size_summary">გახადეთ ყველა ღილაკი ერთი ზომის</string>
+
+    <string name="immersive">სრულეკრანოვანი რეჟიმი</string>
+    <string name="change_immersive_settings">სრულეკრანოვანი რეჟიმის პარამეტრები</string>
+    <string name="hide_status">სტატუსის პანელის დამალვა</string>
+    <string name="hide_nav">ღილაკების პანელის დამალვა</string>
+    <!-- / Navbar config -->
+
+    <!-- Button types -->
+    <string name="accessibility_home">საწყისი</string>
+    <string name="accessibility_back">უკან</string>
+    <string name="accessibility_recent">მიმოხილვა</string>
+    <string name="keycode"></string>
+    <string name="clipboard">ბუფერი</string>
+    <string name="space">არა</string>
+    <string name="spacer">Spacer</string>
+    <string name="menu_ime">კლავიატურის შემცვლელი</string>
+    <string name="notifications">შეტყობინებები</string>
+    <string name="media_volume">ხმის პანელი</string>
+    <string name="tasker_event">Tasker-ი</string>
+    <string name="toggle_profile">პროფილების შეცვლა</string>
+    <string name="launch_app">აპლიკაციის ჩართვა</string>
+    <string name="single_tap">ერთჯერადი დაწკაპება</string>
+    <string name="double_tap">ორმაგი დაწკაპება</string>
+    <string name="long_press">დიდი ხნით დაჭერა</string>
+    <string name="double_tap_delay">Delay</string>
+    <string name="double_tap_incompatible">არ არის თავსებადი ღილაკის ამ ტიპისთვის</string>
+    <string name="dt_limitation">ორმაგიფ დაწკაპება არ არის ხელმისაჭვდომი უფასო ვერსიაში.\nიყიდით პრო ვერსიას დეველოპერის დასახმარებლად და ორმაგი დაწკაპების გასახსნელად?</string>
+    <!-- / Button types -->
+
+    <!-- Button config -->
+    <string name="xt_left_button">ზედმეტი მარცხენა ღილაკი</string>
+    <string name="xt_center_button">ზედმეტი ცენტრული ღილაკი</string>
+    <string name="xt_right_button">ზედმეტი მარჯვენა ღილაკი</string>
+    <string name="xt_left_button_dt">ზედმეტი მარცხენა ღილაკი (ორმაგი დაწკაპებით)</string>
+    <string name="xt_center_button_dt">ზედმეტი ცენტრული ღილაკი (ორმაგი დაწკაპებით)</string>
+    <string name="xt_right_button_dt">ზედმეტი მარჯვენა ღილაკი (ორმაგი დაწკაპებით)</string>
+    <string name="xt_n_button">ზედმეტი %s ღილაკი</string>
+    <string name="button_actions">მოქმედებები</string>
+    <string name="button_action">მოქმედება</string>
+    <string name="button_override">ამ ღილაკის გადაწერა</string>
+    <string name="button_type">ტიპი</string>
+    <string name="button_keycode">ღილაკის კოდი</string>
+    <string name="button_icon">ღილაკის ხატული</string>
+    <string name="unchanged">შეუცვლელი</string>
+    <!-- / Button config -->
+
+    <!-- App selector -->
+    <string name="select_apps">აპლიკაციის არჩევა</string>
+    <string name="action_search">ძებნა</string>
+    <string name="no_result">არ არის რეზულტატები</string>
+    <!-- / App selector -->
+
+    <!-- Profiles -->
+    <string name="profiles">პროფილები</string>
+    <string name="profiles_summary">შექმენით პროფილები რომლის ჩართვა ან გამორთვა შეგიძლია</string>
+    <string name="no_profiles">არ არის პროფილები</string>
+    <string name="automation">ავტომატიზაცია</string>
+    <string name="profile">პროფილი</string>
+    <string name="profile_enabled">ჩართულია</string>
+    <string name="profile_name">სახელი</string>
+    <string name="profile_name_summary">პროფილის სახელის შეცვლა</string>
+    <string name="delete">წაშლა</string>
+    <string name="profiles_limitation">უფასო ვერსიაში მაქსიმუმ მხოლოდ ორი პროფილის დამატება შეიძლება.\nიყიდით პრო ვერსიას დეველოპერის დასახმარებლად და ლიმიტის მოსახსნელად?</string>
+    <string name="profile_show_in_app_shortcuts">პროგრამის სწრაფი ღილაკები</string>
+    <string name="profile_app_shortcut_toggle">\"%s\"-ის ჩართვა</string>
+    <string name="disable_all_profiles">ყველა პროფილის გამორთვა</string>
+    <string name="all_profiles_disabled">ყველა პროფილი გამორთულია</string>
+    <string name="app_shortcuts_max_limit">თქვენ მიაღწიეთ სწრაფი ღილაკების ლიმიტის მაქსიმუმს</string>
+    <!-- / Profiles -->
+
+    <!-- Custom layout -->
+    <string name="preview">გადახედვა</string>
+    <string name="start">დასაწყისი</string>
+    <string name="center">ცენტრი</string>
+    <string name="end">დასასრული</string>
+    <string name="select_button">აირჩიეთ ღილაკი დასამატებლად </string>
+    <string name="add_button">ღილაკის დამატება</string>
+    <string name="save">შენახვა</string>
+    <string name="reset">გადატვირთვა</string>
+
+    <string name="no_home_title">საწყისი ღილაკი არ არის აღმოჩენილი</string>
+    <string name="no_home_message">საწყისი ღილაკი საჭირო არის ნავიგაციისთვის. გთხოვთ დაამატოთ საწყისის ღილაკი პარამეტრების შენახვამდე.</string>
+
+    <string name="adjust_button_width">ღილაკების სიგანის შეცვლა</string>
+
+    <string name="custom_layout_limitation">ქასთომური განლაგება არ არის შესაძლებელი უფასო ვერსიაში.\nიყიდით პრო ვერსიას დეველოპერის დასახმარებლად და ქასთომური განლაგების გასახსნელად?</string>
+    <string name="custom_layout_samsung_warning">ეს ოფციები შეიძლება დაიქრაშOს Samsung-ის მოწყობილობებზე. უფრთხილდით ამ ოფციას.</string>
+    <string name="rename">გადარქმევა</string>
+    <string name="smartbar">ჭკვიანი პანელი</string>
+    <!-- / Custom layout -->
+
+    <!-- Themes -->
+    <string name="theme">თემა</string>
+    <string name="theme_default">საწყისი</string>
+    <string name="theme_pixel">Pixel</string>
+    <string name="theme_s8">S8</string>
+    <string name="theme_filled">შევსებული</string>
+    <string name="theme_invisible">უხილავი</string>
+    <string name="theme_holo">ჰოლოგრამული</string>
+    <string name="theme_material">Material</string>
+    <string name="invalid_theme">შეუთავსებელი თემა</string>
+    <string name="theme_limitation">თემები არ არის ხელმისაწვდმი უფასო ვერსიაში.\nიყიდით პრო ვერსიას დეველოპერის დასახმარებლად და თემების გასახსნელად?</string>
+    <string name="wip_feature">ეს ოფცია ჯერ ექსპერიმენტალურია. იგი დროთადრო გაუმჯობესდება.</string>
+    <string name="themes_warning">თემებიანი ღილაკები დაკაგავენ "დიდი ხნით დაჭერის" ოფციას. ეს არის ანდროიდის ლიმიტაციაა და მას ვერ გამოვასწორებთ.</string>
+    <string name="theme_incompatibility">შეუთავსებლობა</string>
+    <string name="theme_disable_screen_pinning">თემები შეუთავსებელია screen pinning-თან. გამოვრთოთ იგი?</string>
+    <!-- / Themes -->
+
+    <!-- Tasker plugin UI -->
+    <string name="twofortyfouram_locale_breadcrumb_format">%1$s%2$s%3$s</string>
+    <string name="twofortyfouram_locale_breadcrumb_separator">\u0020&gt;\u0020</string>
+    <string name="twofortyfouram_locale_menu_dontsave">გაუქმება</string>
+    <string name="twofortyfouram_locale_menu_help">დახმარება</string>
+    <string name="twofortyfouram_locale_menu_save">შესრულებულია</string>
+
+    <string name="tasker_configuration">კონფიგურაცია</string>
+    <string name="tasker_select_action">მოქმედებები</string>
+    <string name="tasker_select_profile">პროფილის არჩევა</string>
+    <string name="tasker_select_button">ღილაკის არჩევა</string>
+    <string name="none">არა</string>
+    <string name="tasker">Tasker</string>
+    <string name="tasker_summary">პროფილების ჩართვა/გამორთვა დინამიურად</string>
+    <string name="tasker_profile_empty">გთხოვთ აირჩიოთ პროფილი</string>
+    <string name="tasker_no_profiles">გთხოვთ შექმნათ პროფილი</string>
+
+    <string name="tasker_enable_profile">პრფილის ჩართვა</string>
+    <string name="tasker_disable_profile">პროფილის გამორთვა</string>
+    <string name="tasker_in_profile">%s პროფილში</string>
+    <string name="tasker_pro_limitation">Tasker events-ი არ არის ხელმისაწვდომი უფასო ვერსიაში.\nიყიდით პრო ვერსიას დეველოპერის დასახმარებლად და Tasker events-ის გასახსნელად?</string>
+    <string name="tasker_events_wip">ეს ოფცია ჯერ ექსპერიმენტალურია. იგი დროთადრო გაუმჯობესდება.</string>
+    <!-- / Tasker plugin UI -->
+
+    <!-- App info -->
+    <string name="settings">პარამეტრები</string>
+    <string name="information">პროგრამის შესახებ</string>
+    <string name="share">გაზიარება</string>
+    <string name="other_apps">სხვა აპლიკაციები</string>
+    <string name="version">ვერსია</string>
+    <string name="grant_perm">ნებართვის დართვა</string>
+    <string name="perm_not_granted_desc"><![CDATA[
+        ამ აპს სჭირდება <i>WRITE_SECURE_SETTINGS</i> ნებართვა ცვლილებების შესანახად. თქვენ შეგიძლიატ მიიღოთ ეს ნებართვა root-ით ან ADB-თი.
+        <br><br><b>თU გაქვთ კოპიუტერი</b>
+        <br><b>1 </b>დააყენეთ ADB თქვენს კომპიუტერზე 
+        <br><b>2 </b>დააკავშირეთ ტელეფონი მასთან, გაითვალისწინეთ რომ ჩართოტ USB Debugging-ი
+        <br><b>3 </b>გახსენით ტერმინალი
+        <br><b>4 </b>დაწერეთ \'adb shell\' ტელეფონთან დასაკავშირებლად
+        <br><b>5 </b>დაწერეთ მომდევნო ბრძანება ნებართვის დასართველად
+        <br><br>pm grant %1$s android.permission.WRITE_SECURE_SETTINGS
+        <br><br><b>თუ გაქვთ root-ი</b>
+        <br>დააჭირეთ "შემდეგს" სუპერმომხმარებლის მიერ ამ ნებართვის გასაცემად, ან მიყევით შმდეგ საფეხურებს.
+        <br><b>1 </b>გახსენით ტერმინალის ემულატორი
+        <br><b>2 </b>ჩაწერეთ \'su\' სუერმომხმარებლის რეჟიმის ჩასართავად
+        <br><b>3 </b>ჩაწერეთ შემდეგი ბრძანება ნებართვის გასაცემად
+        <br><br>pm grant %1$s android.permission.WRITE_SECURE_SETTINGS
+        <br><br><b>დააჭირეთ ქვემოთ მოცემულ ღილაკს ბრძანების დასაკოპირებად.</b>
+    ]]></string>
+    <string name="retry_title">თავიდან ცდა</string>
+    <string name="retry_desc">ტესტის გადარესტარტება</string>
+    <string name="copied">დაკოპირებულია</string>
+    <string name="help_needed">თქვენ ვერ გაიარეთ შეთავსებულობის ტესტი. რა გნებავთ რომ გააკეთოთ?</string>
+
+    <string name="buy">ყიდვა</string>
+    <string name="buy_pro">პრო ვერსიის ყიდვა</string>
+    <string name="buy_pro_summary">დეველოპერის დახმარება და რეკლამების მოშOრება</string>
+    <string name="thanks">დიდი მადლობა დეველოპერის დახმარებისათვის.</string>
+
+    <string name="welcome">მოგესალმებIთ %s-ში. ეს დაგეხმარებათ გარკვევაში.</string>
+    <string name="copy">ბრძანების კპირება</string>
+    <string name="get_started">დაწყება</string>
+    <string name="safety_first">პირველ რიგში უსაფრთხოება</string>
+    <string name="safety_desc"><![CDATA[
+        იმისათვის რომ დავრწმუნდეთ რომ აპი იმუშავებს თქვენს მოწყობილობაზე, თქვენ უნდა გაიაროთ შეთავსებულობის ტესტი.
+        <br><br>დააჭირეთ <b>სტარტს</b> ტესტის დასაყწებად.
+    ]]></string>
+    <string name="cancel">გაუქმება</string>
+    <string name="test_desc"><![CDATA[
+        დააჭირეთ <b>ისარს ნავიგაციის პანელში</b> გასაგრძელებლად.
+        <br><br>თუ თქვენ ვერ ხედავთ ვერაფერს, ეს იმას ნიშნავს რომ თქვენი მოწყობილობა შეუთავსებელია ამ აპთან.
+    ]]></string>
+    <string name="compatibility_test">შეთავსებულობის ტესტი</string>
+    <string name="finish">დასრულება</string>
+    <string name="all_done">კარგია</string>
+    <string name="all_done_desc">კონფიგურაცია დასრულდა. შეგიძლიათ ამ აპის გამოყენება.</string>
+    <string name="exit">გასვლა</string>
+    <string name="contact">დეველოპერთან კონტაქი</string>
+    <string name="no_email_app">იმეილის აპი არ არის აღმოჩრნილი</string>
+    <string name="no_root">გთხოვთ გასცეთ ნებართვა ADB-ს საშუალებით.</string>
+    <string name="not_compatible">ეს აპლიკაცია შეუთავსებელია თქვენს ანდროიდის ვერსიასთან. ყველა ფუნქცია გაუქმებული იქნება.</string>
+    <string name="might_not_be_compatible">ამ აპლიკაციამ შეიძლება არ იმუშავოს თქვენს მოწყობილობაზე.</string>
+    <string name="experimental">ექსპერიმენტალური პარამეტრები</string>
+    <string name="experimental_warning">ეს ოფციები დაგეხმარებათ ღილაკების შეცვლაში. მათ შეიძლება ზუსტად არ იმუშავონ.</string>
+    <string name="dark_theme">მუქი თემა</string>
+    <string name="reset_navbar">გადარესტარტება</string>
+    <string name="reset_navbar_summary">ნავიგაციის  პანელის საწყის რეჟიმზე დაყენება</string>
+    <string name="author">ავტორი</string>
+    <string name="other_apps_summary">შეაფასეთ ჩემი სხვა აპლიკაციებიც</string>
+    <string name="share_text" formatted="false">შეაფასეთ \"%s\"\nhttps://play.google.com/store/apps/details?id=%s</string>
+    <string name="share_with">\"%s\"-ს გაზიარება</string>
+    <string name="support_development">დეველოპერის დახმარება</string>
+    <string name="report_bugs">შეცდომების შეტყობინება</string>
+    <string name="repoer_bugs_summary">შეცდომების შეტბინება ან ახალი ფუნქციების შეთავაზება</string>
+    <string name="translate">გადათარგნა/string>
+    <string name="translate_summary">გადათარგმნეთ ეს აპლიკაიცია თქვენს ენაზე</string>
+    <string name="send_email">იმეილის გაგზავნა</string>
+    <string name="licenses">გახსნილი წყაროების ლიცენზია</string>
+    <!-- / App info -->
+
+</resources>
